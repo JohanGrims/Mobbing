@@ -1,0 +1,400 @@
+{
+  "id": "FORM_ID_FEEDBACK_PLACEHOLDER",
+  "name": "Feedback zum Fragebogen – Schulklima, Mobbing und Gewalt",
+  "isNameModifiedByUser": true,
+  "workspaceId": "WORKSPACE_ID_PLACEHOLDER",
+  "organizationId": "ORG_ID_PLACEHOLDER",
+  "status": "PUBLISHED",
+  "hasDraftBlocks": false,
+  "numberOfSubmissions": 31,
+  "createdAt": "2025-12-10T17:00:18.000Z",
+  "updatedAt": "2025-12-11T06:14:25.000Z",
+  "index": 0,
+  "isClosed": true,
+  "settings": {
+    "language": "de",
+    "isClosed": true,
+    "closeMessageTitle": "Beendet",
+    "closeMessageDescription": "Bald gibt es mehr zu hören...",
+    "closeTimezone": null,
+    "closeDate": null,
+    "closeTime": null,
+    "submissionsLimit": null,
+    "uniqueSubmissionKey": null,
+    "redirectOnCompletion": null,
+    "hasSelfEmailNotifications": false,
+    "selfEmailTo": null,
+    "selfEmailReplyTo": null,
+    "selfEmailSubject": null,
+    "selfEmailFromName": null,
+    "selfEmailBody": null,
+    "selfEmailSendingDomainId": null,
+    "hasRespondentEmailNotifications": false,
+    "respondentEmailTo": null,
+    "respondentEmailReplyTo": null,
+    "respondentEmailSubject": null,
+    "respondentEmailFromName": null,
+    "respondentEmailBody": null,
+    "respondentEmailSendingDomainId": null,
+    "hasVerifyEmailNotifications": false,
+    "verifyEmailFromName": null,
+    "verifyEmailSendingDomainId": null,
+    "hasProgressBar": false,
+    "hasPartialSubmissions": false,
+    "pageAutoJump": false,
+    "saveForLater": false,
+    "styles": {
+      "theme": "CUSTOM",
+      "color": {
+        "background": "#1A1917",
+        "text": "#DFDFDE",
+        "accent": "#326A39",
+        "buttonBackground": "#326A39",
+        "buttonText": "#FFFFFF"
+      },
+      "direction": "ltr"
+    },
+    "password": null,
+    "submissionsDataRetentionDuration": null,
+    "submissionsDataRetentionUnit": null,
+    "metaSiteName": null,
+    "metaSiteFaviconUrl": null,
+    "metaTitle": null,
+    "metaDescription": null,
+    "metaImageUrl": null
+  },
+  "blocks": [
+    {
+      "uuid": "4a7d47d3-26d7-4ebc-a1ba-364de04782ad",
+      "type": "FORM_TITLE",
+      "groupUuid": "3be3463c-3952-4a5c-b8d5-18a77b004e90",
+      "groupType": "TEXT",
+      "payload": {
+        "button": { "label": "Ja, Feedback geben" },
+        "cover": "https://storage.tally.so/972c83b8-46c0-4e98-9211-7ec422f8557f/Gemini_Generated_Image_k92jqik92jqik92j.png",
+        "coverSettings": { "objectPositionYPercent": 49.256254225828236 },
+        "logo": "https://storage.tally.so/ef08af2a-b7ae-48a5-a41c-f6844e841da7/Gemini_Generated_Image_leo57pleo57pleo5.png",
+        "safeHTMLSchema": [["Vielen Dank für das Ausfüllen"]],
+        "title": "Vielen Dank für das Ausfüllen"
+      }
+    },
+    {
+      "uuid": "6649fc71-fab4-4a64-beb4-4fa16adb532d",
+      "type": "TEXT",
+      "groupUuid": "6d25f3e1-c2b3-4d5b-bee4-b577c771f7dc",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Vielen Dank für deine ehrlichen Antworten. Sie bedeuten uns sehr viel. \nDenn nur zusammen können wir die Schule zu einem besseren Ort machen.\n\nDie Daten werden nun von den entsprechenden Kreisen gesammelt und \nausgewertet. Sie bleiben vollständig anonym."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "e2b0a9da-0c94-49a5-a63a-ffb526b96045",
+      "type": "TEXT",
+      "groupUuid": "55a8b388-1f2f-4664-ba6e-da0ff8f86ab9",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Nochmals: vielen Dank!\nDie SchülerInnenvertretung (SV) und Mitteloberstufenkonferenz (MOK)",
+            [
+              ["tag", "span"],
+              ["font-style", "italic"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "c6809830-0daf-4d2f-8c03-c6a8bf8eab08",
+      "type": "DIVIDER",
+      "groupUuid": "956a8118-d91a-4380-821d-12d40f16a720",
+      "groupType": "DIVIDER",
+      "payload": {}
+    },
+    {
+      "uuid": "43071c2d-05c5-49b3-9bf4-f1abc0f094ac",
+      "type": "TEXT",
+      "groupUuid": "19af3573-1859-4261-ba25-d21748ed2f25",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Wenn du jetzt noch kurz Zeit und Lust hast, könntest du mir, Johan (12. Klasse), dem Haupt-Ersteller der Umfrage mit einem kurzen Feedback zum Aufbau des Fragebogens und seiner Umsetzung helfen. Sonst schließe die Seite einfach, deine Antworten wurden bereits übermittelt."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "5be06424-04dc-4844-bc72-69669ec13295",
+      "type": "PAGE_BREAK",
+      "groupUuid": "16c0a4b7-fa53-46d4-af20-5686cf906423",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 0,
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": true,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "35f45811-826e-46b8-8303-c8b9dc7c753d",
+      "type": "TITLE",
+      "groupUuid": "2e724c11-e1e5-4d6a-ad3d-e45b325c0c05",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Wie würdest du die Umsetzung des Fragebogens bewerten?"]
+        ]
+      }
+    },
+    {
+      "uuid": "d8469cf5-a7b1-4172-b768-95fd04f365c0",
+      "type": "RATING",
+      "groupUuid": "48e8bc59-a385-46ec-9c94-ed04e4802f92",
+      "groupType": "RATING",
+      "payload": { "isRequired": false, "stars": 5 }
+    },
+    {
+      "uuid": "885bfb97-eb70-4c90-b224-82ec7bde126a",
+      "type": "DIVIDER",
+      "groupUuid": "47ebb5e2-6931-481b-bc69-52ff355c56fc",
+      "groupType": "DIVIDER",
+      "payload": {}
+    },
+    {
+      "uuid": "8bb1314b-6303-43fc-ac12-3030d507ee03",
+      "type": "TEXT",
+      "groupUuid": "3bef68b7-2625-400a-82cc-a65b5de6a2b3",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Bitte bewerte von "],
+          [
+            "1 = stimmt gar nicht",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [" bis "],
+          [
+            "5 = stimmt voll und ganz",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          ["."]
+        ]
+      }
+    },
+    {
+      "uuid": "397aa388-48f0-47a7-bb56-388fb3789db9",
+      "type": "TITLE",
+      "groupUuid": "6e97d8bd-a118-431c-8ad8-01cc600e193c",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Die angegebene Zeit (10 bis 20 Min.) war realistisch und hat für mich gepasst."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "25bce7ca-2200-49db-b643-95c3c8336523",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "7a7eed92-e92c-429f-b042-2b79ff6b787b",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht ",
+        "hasRightLabel": true,
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "f5b05dd0-ef48-41e1-a87c-d683335387c8",
+      "type": "TITLE",
+      "groupUuid": "069fe67f-b302-44ce-85c4-e79d96cf290c",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Die Fragen waren klar und verständlich formuliert."]
+        ]
+      }
+    },
+    {
+      "uuid": "bad2baeb-401b-4421-86a3-6b55a23ee4d1",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "674cd839-c175-400b-9ec4-482959ef4cde",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht ",
+        "hasRightLabel": true,
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "fdbdad1c-d35e-4006-a224-c48f3a6faf80",
+      "type": "TITLE",
+      "groupUuid": "5a026183-c6ee-46bc-9279-12c8af0fd5d2",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Ich habe mich beim Beantworten sicher und anonym gefühlt."]
+        ]
+      }
+    },
+    {
+      "uuid": "b53e4c13-7fd0-4cf7-896e-dcf87da83fa4",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "2bb0e0c3-8d26-4416-a579-7f2782d08c14",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht ",
+        "hasRightLabel": true,
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "a444eea4-9eca-44b6-8d1c-24a9eb40e6d6",
+      "type": "TITLE",
+      "groupUuid": "41771581-10df-446f-902f-cb51c6c80034",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Ich glaube, dass die Ergebnisse dieser Umfrage etwas an unserer Schule verbessern werden."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "df211494-027f-4c72-8905-12e429f3c00c",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "d4f4820a-af30-4478-b5f7-5ba52c808d6b",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht ",
+        "hasRightLabel": true,
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "0339f3e7-c3ca-452c-931c-83d84d4518c8",
+      "type": "DIVIDER",
+      "groupUuid": "7279af2e-f616-4e7c-a9c8-b37c501fd0d5",
+      "groupType": "DIVIDER",
+      "payload": {}
+    },
+    {
+      "uuid": "9f457bfd-35ef-4c51-870f-81673d5bb94e",
+      "type": "TITLE",
+      "groupUuid": "4c26e632-506f-4b49-bf82-363623122a7d",
+      "groupType": "QUESTION",
+      "payload": { "safeHTMLSchema": [["Offenes Feedback zum Fragebogen"]] }
+    },
+    {
+      "uuid": "0d34d1fb-950e-4aec-94ee-f49795b2430b",
+      "type": "TEXTAREA",
+      "groupUuid": "e996b897-de28-4bed-9b1e-d349e1cb6208",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": false,
+        "placeholder": "Hast du noch technisches Feedback oder Anmerkungen zur Machart des Fragebogens?"
+      }
+    },
+    {
+      "uuid": "1dab11b2-58df-4d41-b29d-0f6de6353fa0",
+      "type": "PAGE_BREAK",
+      "groupUuid": "acfd4209-bb8f-4fd4-b504-40380446b037",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 1,
+        "isQualifiedForThankYouPage": true,
+        "isThankYouPage": true,
+        "isFirst": false,
+        "isLast": true
+      }
+    },
+    {
+      "uuid": "d4e3f1cf-3915-4112-a487-45438fc26966",
+      "type": "HEADING_1",
+      "groupUuid": "0749dc47-5f33-4121-90c0-b6948432d0ee",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Abgeschickt!"]] }
+    },
+    {
+      "uuid": "f4420764-a10e-4cab-a2a1-ea9876ebaa01",
+      "type": "TEXT",
+      "groupUuid": "acfd4209-bb8f-4fd4-b504-40380446b037",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Nun ein drittes "],
+          [
+            "DANKE! ",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "b3091027-d2f2-4d0e-af8f-6f754f885d0f",
+      "type": "TEXT",
+      "groupUuid": "f890ff19-39a4-4ee4-a150-9fc361f1d838",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Für eine detaillierte Aufarbeitung und eventuelle Verbesserungen bei einem neuen Fragebogen hilft mir deine Antwort bestimmt weiter."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "123fdb92-d7b9-4b65-9b43-43446a60910d",
+      "type": "TEXT",
+      "groupUuid": "dc5ed636-efd9-403b-93b2-f65941200068",
+      "groupType": "TEXT",
+      "payload": { "safeHTMLSchema": [] }
+    },
+    {
+      "uuid": "c1d0b6de-c08c-40c9-aa66-5aa04b248b91",
+      "type": "TEXT",
+      "groupUuid": "633b4b6a-0777-4c21-acb4-a40504858a0b",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [["Johan\nLeitung der SV\n12. Klasse"]]
+      }
+    }
+  ]
+}

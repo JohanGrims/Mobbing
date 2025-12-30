@@ -1,0 +1,4557 @@
+{
+  "id": "FORM_ID_MAIN_PLACEHOLDER",
+  "name": "Fragebogen – Schulklima, Mobbing und Gewalt",
+  "isNameModifiedByUser": false,
+  "workspaceId": "WORKSPACE_ID_PLACEHOLDER",
+  "organizationId": "ORG_ID_PLACEHOLDER",
+  "status": "PUBLISHED",
+  "hasDraftBlocks": false,
+  "numberOfSubmissions": 94,
+  "createdAt": "2025-09-27T13:12:49.000Z",
+  "updatedAt": "2025-12-12T16:27:25.000Z",
+  "index": 0,
+  "isClosed": true,
+  "settings": {
+    "language": "de",
+    "isClosed": true,
+    "closeMessageTitle": "Die Umfrage ist beendet.",
+    "closeMessageDescription": "Vielen Dank für das große Interesse. Der Erhebungszeitraum ist vorbei und wir werten nun die Ergebnisse aus. ",
+    "closeTimezone": null,
+    "closeDate": null,
+    "closeTime": null,
+    "submissionsLimit": null,
+    "uniqueSubmissionKey": null,
+    "redirectOnCompletion": {
+      "safeHTMLSchema": [["https://tally.so/r/FORM_ID_FEEDBACK_PLACEHOLDER"]],
+      "mentions": []
+    },
+    "hasSelfEmailNotifications": false,
+    "selfEmailTo": null,
+    "selfEmailReplyTo": null,
+    "selfEmailSubject": null,
+    "selfEmailFromName": null,
+    "selfEmailBody": null,
+    "selfEmailSendingDomainId": null,
+    "hasRespondentEmailNotifications": false,
+    "respondentEmailTo": null,
+    "respondentEmailReplyTo": null,
+    "respondentEmailSubject": null,
+    "respondentEmailFromName": null,
+    "respondentEmailBody": null,
+    "respondentEmailSendingDomainId": null,
+    "hasVerifyEmailNotifications": false,
+    "verifyEmailFromName": null,
+    "verifyEmailSendingDomainId": null,
+    "hasProgressBar": true,
+    "hasPartialSubmissions": false,
+    "pageAutoJump": false,
+    "saveForLater": true,
+    "styles": {
+      "direction": "ltr",
+      "theme": "CUSTOM",
+      "color": {
+        "background": "#1A1917",
+        "text": "#DFDFDE",
+        "accent": "#f89e24",
+        "buttonBackground": "#f89e24",
+        "buttonText": "#FFFFFF"
+      }
+    },
+    "password": null,
+    "submissionsDataRetentionDuration": null,
+    "submissionsDataRetentionUnit": null,
+    "metaSiteName": null,
+    "metaSiteFaviconUrl": null,
+    "metaTitle": null,
+    "metaDescription": null,
+    "metaImageUrl": null
+  },
+  "blocks": [
+    {
+      "uuid": "f16703cc-a608-45a8-a9cc-46f060012c06",
+      "type": "FORM_TITLE",
+      "groupUuid": "fe1ec29f-b521-4d7a-a0de-e7ff6d269a0e",
+      "groupType": "TEXT",
+      "payload": {
+        "logo": "https://waldorfschule-potsdam.de/wp-content/uploads/2020/08/cropped-LogoWSPOhneText-192x192.png",
+        "cover": "https://storage.tally.so/eef3f3a7-5c83-4525-94a5-367b2df62422/Gemini_Generated_Image_t7fvu4t7fvu4t7fv.png",
+        "coverSettings": { "objectPositionYPercent": 49.64831110594509 },
+        "safeHTMLSchema": [["Fragebogen – Schulklima, Mobbing und Gewalt"]],
+        "title": "Fragebogen – Schulklima, Mobbing und Gewalt"
+      }
+    },
+    {
+      "uuid": "6cff265c-275e-4b7b-9e5f-fb0c8872130e",
+      "type": "TEXT",
+      "groupUuid": "4d270677-d4ea-43a4-a12b-e4f4514ad9c3",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Liebe Schülerin, lieber Schüler,\n\ndieser Fragebogen soll erfassen, wie wir miteinander umgehen – im Alltag, bei Konflikten und im Internet. Deine ehrlichen Antworten helfen, unsere Schule sicherer und freundlicher für alle zu machen."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "d6fc7a4d-ee9c-4eab-b033-08ec69bbdab4",
+      "type": "TEXT",
+      "groupUuid": "986f9b36-8a3d-4074-b452-ff2fcb2140c2",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Das Ausfüllen dauert etwa 10 bis 20 Minuten. ",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "4b786e12-d9ec-40fc-b852-092901312a28",
+      "type": "TEXT",
+      "groupUuid": "7e1b3390-f566-49c4-90e3-2e6626698c6a",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Anonymität:",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [" Niemand kann deine Antworten deiner Person zuordnen.\n"],
+          [
+            "Freiwilligkeit: ",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          ["Du entscheidest, welche Fragen du beantwortest.\n"],
+          [
+            "Datenschutz: ",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          ["Ergebnisse werden nur zusammengefasst ausgewertet.\n"],
+          [
+            "Hilfe: ",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [
+            "Am Ende findest du Kontaktmöglichkeiten inner- und außerhalb der Schule, falls du aktuell Probleme hast."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "c65f59f8-7ebe-4f2f-a963-3135b7d836e6",
+      "type": "TEXT",
+      "groupUuid": "f5b284c4-36d5-446e-846a-a7f3e1e0fdbd",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Bitte versuche, "],
+          [
+            "ehrlich zu antworten,",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [" nur so kann es uns allen helfen. Und: "],
+          [
+            "es gibt keine falschen Antworten. ",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [
+            "Vielen Dank für deine Mithilfe. Bei Fragen melde dich bei deiner Lehrkraft."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "a92df0b4-b2ae-41fa-a8fa-b94644caf4b7",
+      "type": "PAGE_BREAK",
+      "groupUuid": "6a4d7c96-9572-44e0-ab5d-7dfcf012339c",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 0,
+        "name": "Angaben zu dir",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": true,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "170929b7-de11-4ecc-a3c3-91889d93148f",
+      "type": "HEADING_1",
+      "groupUuid": "2ccd74c9-88b9-491e-9306-ce231ce91402",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Angaben zu dir"]] }
+    },
+    {
+      "uuid": "996f6938-ae82-485f-a0a4-5de6cee75c06",
+      "type": "TITLE",
+      "groupUuid": "12203edc-af7e-4355-b8b2-8d9eb16f6556",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": true,
+        "safeHTMLSchema": [["In welcher Klasse bist du?"]]
+      }
+    },
+    {
+      "uuid": "20a8a7b9-19c8-4cb9-9184-ca28eee0407f",
+      "type": "DROPDOWN_OPTION",
+      "groupUuid": "e4b0b08d-2b18-44b3-b2f7-4d6a6ba27075",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "index": 0,
+        "isRequired": true,
+        "isFirst": true,
+        "isLast": false,
+        "text": "5. Klasse"
+      }
+    },
+    {
+      "uuid": "5832689b-1ed5-44d6-9586-b0577ead3fb4",
+      "type": "DROPDOWN_OPTION",
+      "groupUuid": "e4b0b08d-2b18-44b3-b2f7-4d6a6ba27075",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "isRequired": true,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "text": "6. Klasse"
+      }
+    },
+    {
+      "uuid": "c722b403-36af-4b7e-8318-55c4977e782c",
+      "type": "DROPDOWN_OPTION",
+      "groupUuid": "e4b0b08d-2b18-44b3-b2f7-4d6a6ba27075",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "isRequired": true,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "text": "7. Klasse"
+      }
+    },
+    {
+      "uuid": "5a4cfdc7-fe8b-42df-8ec7-071ec81583a9",
+      "type": "DROPDOWN_OPTION",
+      "groupUuid": "e4b0b08d-2b18-44b3-b2f7-4d6a6ba27075",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "isRequired": true,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "text": "8. Klasse"
+      }
+    },
+    {
+      "uuid": "79fdb500-8ba0-4ea0-b47a-4a8e90007811",
+      "type": "DROPDOWN_OPTION",
+      "groupUuid": "e4b0b08d-2b18-44b3-b2f7-4d6a6ba27075",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "isRequired": true,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "text": "9. Klasse"
+      }
+    },
+    {
+      "uuid": "0529ac2f-d264-4620-a0b4-469340ed347e",
+      "type": "DROPDOWN_OPTION",
+      "groupUuid": "e4b0b08d-2b18-44b3-b2f7-4d6a6ba27075",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "isRequired": true,
+        "index": 5,
+        "isFirst": false,
+        "isLast": false,
+        "text": "10. Klasse"
+      }
+    },
+    {
+      "uuid": "5e228c62-1532-4db9-a9f8-f18debad4f16",
+      "type": "DROPDOWN_OPTION",
+      "groupUuid": "e4b0b08d-2b18-44b3-b2f7-4d6a6ba27075",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "isRequired": true,
+        "index": 6,
+        "isFirst": false,
+        "isLast": false,
+        "text": "11. Klasse"
+      }
+    },
+    {
+      "uuid": "1600cb32-3639-4580-85ce-d4676e4770f7",
+      "type": "DROPDOWN_OPTION",
+      "groupUuid": "e4b0b08d-2b18-44b3-b2f7-4d6a6ba27075",
+      "groupType": "DROPDOWN",
+      "payload": {
+        "isRequired": true,
+        "index": 7,
+        "isFirst": false,
+        "isLast": true,
+        "text": "12. Klasse"
+      }
+    },
+    {
+      "uuid": "d1e0c9e8-08a3-4838-be49-09d0cdb0b8aa",
+      "type": "TITLE",
+      "groupUuid": "bad39de3-a3dc-4f49-9a4f-addb15f6363e",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "safeHTMLSchema": [["Wie bezeichnest du dein Geschlecht?"]]
+      }
+    },
+    {
+      "uuid": "2a18a2e6-a33f-4e37-8f48-5a87b45da566",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "98ed0864-7824-4453-bdab-034ba8a1288f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "weiblich"
+      }
+    },
+    {
+      "uuid": "df4c3135-5464-4d6d-ae51-f4413dd50328",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "98ed0864-7824-4453-bdab-034ba8a1288f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "männlich"
+      }
+    },
+    {
+      "uuid": "2833e828-9502-4d2f-a4b6-774339edc649",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "98ed0864-7824-4453-bdab-034ba8a1288f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "divers"
+      }
+    },
+    {
+      "uuid": "f30baf4f-f7aa-4b1b-bf9d-0f10eb034417",
+      "type": "PAGE_BREAK",
+      "groupUuid": "6bec403a-f80b-49a5-9edf-3cab74226926",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 1,
+        "name": "Wohlbefinden & Klassenklima",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "d79558c1-cc14-4f9d-92d9-4d89519aeb06",
+      "type": "HEADING_1",
+      "groupUuid": "d4bc8c68-621c-4698-8c50-e4c15d6a0fb7",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Wohlbefinden &amp; Klassenklima"]] }
+    },
+    {
+      "uuid": "91fc44b7-d792-4e2d-9ae3-747774b7df54",
+      "type": "TEXT",
+      "groupUuid": "9f9b52b3-4135-4ca6-8b46-4d2a568c7076",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Bitte bewerte von "],
+          [
+            "1 = stimmt gar nicht",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [" bis "],
+          [
+            "5 = stimmt voll und ganz",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          ["."]
+        ]
+      }
+    },
+    {
+      "uuid": "cb90e2a6-a8d9-4bd4-a936-684756c545cb",
+      "type": "TITLE",
+      "groupUuid": "1345e4a1-e5b3-42be-8d15-0e5fcca065b7",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "In meiner Klasse habe ich enge FreundInnen, auf die ich mich verlassen kann."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "369d4efc-50c4-46ed-a59d-80b7219705be",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "7231957f-54b6-4553-8c97-205e55b8d3b8",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "070aab77-6128-49b4-894e-405928def674",
+      "type": "TITLE",
+      "groupUuid": "f589c6ac-3c00-49b4-8059-2e2dcfa8e5c1",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          ["In meiner Klasse gehen wir höflich und respektvoll miteinander um."]
+        ]
+      }
+    },
+    {
+      "uuid": "0f467078-1f15-498e-8ffa-65ed2b9660d2",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "200f00a9-cbad-4b90-bc1e-e819300c23a2",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "e2ba6e82-c969-4711-98c5-def33f418a23",
+      "type": "TITLE",
+      "groupUuid": "0c975c43-bd8c-4268-abe6-4b72f005ffab",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Ich habe das Gefühl, dass die anderen in der Klasse es mögen, wenn ich dabei bin."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "f9be52ae-1eab-4ec0-a3fb-7e58af9e6f9a",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "790cda05-ac68-4438-819f-94fc034120dc",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "451a7a6c-a17d-4bd5-975e-ceb52b6ac249",
+      "type": "TITLE",
+      "groupUuid": "8151d8f9-a412-4ea7-ad58-d36359d81c5f",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [["Ich fühle mich in meiner Klasse sicher."]]
+      }
+    },
+    {
+      "uuid": "3c04a212-d0f3-4e46-88c4-4695c1c47eae",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "2ca50abd-1b95-4b45-9583-46aeaec40d5a",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "1089ee11-3136-4cd8-8bd3-540251c4b02f",
+      "type": "PAGE_BREAK",
+      "groupUuid": "69bf5edc-92ff-41d6-8840-e7d08a63ded2",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 2,
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "5d3954f3-ff1a-4ee4-b3e1-347c96a1ecd3",
+      "type": "HEADING_1",
+      "groupUuid": "9b8092c3-a471-4687-b74a-f1dce59c9646",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Schule &amp; Lehrkräfte"]] }
+    },
+    {
+      "uuid": "52577850-2547-49e3-a548-0fcced0e2f93",
+      "type": "TEXT",
+      "groupUuid": "ff030ed1-db85-4f4e-8f8c-634ceea78967",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Bitte bewerte von "],
+          [
+            "1 = stimmt gar nicht",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [" bis "],
+          [
+            "5 = stimmt voll und ganz",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          ["."]
+        ]
+      }
+    },
+    {
+      "uuid": "4796d5ea-bc9d-4def-96e3-987e2603204f",
+      "type": "TITLE",
+      "groupUuid": "1c7f74ce-6962-4b71-a276-cbe4c61ee4b8",
+      "groupType": "QUESTION",
+      "payload": { "safeHTMLSchema": [["Ich gehe gerne zur Schule."]] }
+    },
+    {
+      "uuid": "a4863f19-8e5d-497c-b638-e663c2745c96",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "cd15ae39-98df-4196-a3f5-d40d9c252a52",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "292ba4a3-3a7c-4dab-88c2-cbb68ab1c171",
+      "type": "TITLE",
+      "groupUuid": "1f9466bb-713c-4e7d-a896-5f438ef6b146",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Ich habe das Gefühl, dass die meisten Lehrkräfte uns SchülerInnen gerecht behandeln."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "2019939b-59c3-498d-ad43-d44823b482bf",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "8fb6dcb1-e3b2-44de-bd57-4a9c778dbc00",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "b205b267-a47b-4cec-b7d4-10d698795ed1",
+      "type": "TITLE",
+      "groupUuid": "0cd6cd47-874e-4751-8185-d80e0188929e",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Es gibt Lehrkräfte in der Schule, denen ich vertrauen kann."]
+        ]
+      }
+    },
+    {
+      "uuid": "575da914-69c1-4afc-a380-e4010a2ae551",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "e514cb42-37fc-4af7-a082-3d8505b36d67",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "fc2107ab-8e76-4268-88a2-dbdd5235bf7d",
+      "type": "TITLE",
+      "groupUuid": "aa9881d8-111f-41f9-899e-870991c01716",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Ich habe das Gefühl, dass die Lehrkräfte meine Sorgen ernst nehmen.",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "d4e699cb-e69f-4b6e-a64c-f2f5874a16d2",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "bce856fe-1c95-4df9-9920-04178713e2d0",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "eacc5219-1ae0-4f15-a24e-4517d3508208",
+      "type": "PAGE_BREAK",
+      "groupUuid": "a00c3b3f-6218-4e5d-af4b-f367d0ebf79a",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 3,
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "330d0c2f-0182-4287-96d9-1e23e82f77ba",
+      "type": "HEADING_1",
+      "groupUuid": "e74edd38-9444-4892-8f64-882aa36c3aee",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Familie &amp; Freunde"]] }
+    },
+    {
+      "uuid": "db5a9d02-b702-4dfd-8c09-96d3664a9e03",
+      "type": "TEXT",
+      "groupUuid": "4e418a75-b5cb-4027-931e-289fd31ae1f6",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Bitte bewerte von "],
+          [
+            "1 = stimmt gar nicht",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [" bis "],
+          [
+            "5 = stimmt voll und ganz",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          ["."]
+        ]
+      }
+    },
+    {
+      "uuid": "31d20fcb-525d-4ceb-89dc-d96c48135174",
+      "type": "TITLE",
+      "groupUuid": "2719f65f-fc01-444a-9fd7-d1ce7db93074",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Zu Hause gibt es mindestens eine erwachsene Person, die mir zuhört, wenn es mir nicht gut geht."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "162cb266-60e0-417d-be16-a474a0f3cf6b",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "4bd5f69f-0f90-4437-b360-cde10aaad2b1",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "2ca34504-c3cc-4ae4-ac7f-b66d56aecf9f",
+      "type": "TITLE",
+      "groupUuid": "417cbc1e-f713-4e32-9f46-85b3a4307698",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "In meiner Familie habe ich das Gefühl, so akzeptiert zu werden, wie ich bin."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "425d26e0-acad-434a-8fd9-61ce70019a83",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "54405db8-b5ef-44eb-8ca9-4efc8aec1492",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "a9e293e1-5897-44aa-ac62-17d1d3a4d7d6",
+      "type": "TITLE",
+      "groupUuid": "90e8b790-39d4-48e0-81c2-b7e03afe6be8",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            [
+              [
+                "Ich habe mindestens eine gute Freundin oder einen guten Freund "
+              ],
+              [
+                "außerhalb",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ],
+              [" meiner Klasse, der/dem ich vertraue."]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "ed3a9c65-262c-4ccc-b10f-bd409eb2ef92",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "c51e1323-0066-43be-82ce-b377de466393",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "21c017a5-4885-4eee-9be0-8b072c74d82d",
+      "type": "TITLE",
+      "groupUuid": "c04fc52e-4a96-457e-a467-712dc3bf6ab2",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Insgesamt habe ich das Gefühl, dass ich Menschen habe, auf die ich mich wirklich verlassen kann.",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "764d4a40-4bba-4ffd-9302-32f420bd35a2",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "5b75eda7-2fc8-4e60-9848-9183c2450639",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "hasRightLabel": true,
+        "hasDefaultAnswer": false,
+        "leftLabel": "Gar nicht",
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "ae9bf884-634e-4916-bdf2-49a2f3469667",
+      "type": "PAGE_BREAK",
+      "groupUuid": "75ae6187-5b89-47c9-b701-b7278025f939",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 4,
+        "isQualifiedForThankYouPage": true,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "d74b725a-4627-4261-94d0-dfece4621507",
+      "type": "HEADING_1",
+      "groupUuid": "c0a7a62f-2474-40a3-844c-b10dd17ee7c9",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Deine Erfahrungen von Gewalt"]] }
+    },
+    {
+      "uuid": "bfd25e69-9635-42be-8a46-f8771a44d350",
+      "type": "TEXT",
+      "groupUuid": "e54a0eb4-3979-439c-8689-7dec62bd251d",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Auf den folgenden drei Seiten werden deine persönlichen Erfahrungen zu \n- körperlicher Gewalt (Schlagen, Schubsen, etc.), \n- sozialem Mobbing (Beschimpfungen, Gerüchte) und \n- Cybermobbing (digitale Ausgrenzung oder Bloßstellung) \nbehandelt. Alle Antworten sind optional. Wenn du tieferen Kontakt suchst, setzte dich mit den VertrauenslehrerInnen in Verbindung."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "e4f4ef55-70dc-4af5-9857-c5a69a13c20c",
+      "type": "PAGE_BREAK",
+      "groupUuid": "4315f40e-a835-427a-86ce-3243c16cc98b",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 5,
+        "isQualifiedForThankYouPage": true,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "47d01e85-10e6-4ee8-8b8b-c823918104f2",
+      "type": "HEADING_1",
+      "groupUuid": "b48d6ccc-935f-4fab-8492-c2cb6f4a5c78",
+      "groupType": "HEADING_1",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Begriffserklärung",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "f42bf684-9cb7-4d60-87f3-9d4273975cff",
+      "type": "TEXT",
+      "groupUuid": "f052d91f-7b89-48ca-ab65-d3e2be1b2b88",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Mobbing",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [
+            " bedeutet wiederholtes, langfristiges Schikanieren oder Ausgrenzen einer Person durch andere.\n\nEinzelne Konflikte oder einmalige Streitereien sind kein Mobbing."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "0b8bd9b2-3b4d-4c41-a803-533be139e622",
+      "type": "PAGE_BREAK",
+      "groupUuid": "d627b0f7-d21e-4fd3-a677-81dbe1954991",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 6,
+        "name": "Gewalterfahrungen",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "56f2e7c2-7a32-4c87-9015-a33a7f6d26f0",
+      "type": "HEADING_1",
+      "groupUuid": "c723cbfe-ef5d-4113-9abf-5d05a7c47032",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Körperliche Gewalt"]] }
+    },
+    {
+      "uuid": "cbc45678-22e7-448b-81db-e8f9c3bd6426",
+      "type": "TITLE",
+      "groupUuid": "74ae4c74-67bc-4898-bc35-5e070db31377",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": true,
+        "safeHTMLSchema": [
+          [
+            "Wie oft wurdest du in den letzten 6 Monaten Opfer von körperlicher Gewalt von MitschülerInnen "
+          ],
+          [
+            [
+              [
+                "(z. B. Schubsen, Schlagen, Treten)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "51a1d5ef-2b41-46e2-a8aa-3c689500e84c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "de7a68c4-8745-41ae-b3bc-cf0f9fb9cd9c",
+        "columnUuid": "eda4c0e3-de2e-4345-8c87-826bd2c3ab41",
+        "columnRatio": 34,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Nie"
+      }
+    },
+    {
+      "uuid": "eb888a8b-97f9-4c29-94e3-1623a0de5a3e",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "de7a68c4-8745-41ae-b3bc-cf0f9fb9cd9c",
+        "columnUuid": "eda4c0e3-de2e-4345-8c87-826bd2c3ab41",
+        "columnRatio": 34,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Selten"
+      }
+    },
+    {
+      "uuid": "0f361a56-fe8c-478a-a418-328ae5c2fc62",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "de7a68c4-8745-41ae-b3bc-cf0f9fb9cd9c",
+        "columnUuid": "f734cec6-7620-45de-a966-4eb09bc26b94",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Monatlich"
+      }
+    },
+    {
+      "uuid": "dc94d45f-5780-4ade-90dd-a9a3ad4ae683",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "de7a68c4-8745-41ae-b3bc-cf0f9fb9cd9c",
+        "columnUuid": "f734cec6-7620-45de-a966-4eb09bc26b94",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Wöchentlich"
+      }
+    },
+    {
+      "uuid": "6b6c6464-49a6-4162-9b65-4ff76e187f6e",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "de7a68c4-8745-41ae-b3bc-cf0f9fb9cd9c",
+        "columnUuid": "70c69391-fe8a-4718-aa42-da8a33d24849",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehrmals pro Woche"
+      }
+    },
+    {
+      "uuid": "8025d82e-b831-424b-92d9-45be3a1a1e19",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "de7a68c4-8745-41ae-b3bc-cf0f9fb9cd9c",
+        "columnUuid": "70c69391-fe8a-4718-aa42-da8a33d24849",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Täglich"
+      }
+    },
+    {
+      "uuid": "97fa57d0-bf68-4972-bb89-f5956dd2acaf",
+      "type": "CONDITIONAL_LOGIC",
+      "groupUuid": "3f1aaba1-fca5-451c-8375-02a0a4053fa6",
+      "groupType": "CONDITIONAL_LOGIC",
+      "payload": {
+        "updateUuid": "11102e7a-e3b1-4876-9d01-fcd39ac19232",
+        "logicalOperator": "AND",
+        "conditionals": [
+          {
+            "uuid": "b6df7f37-4667-4c24-91ed-5547cc9ec121",
+            "type": "SINGLE",
+            "payload": {
+              "field": {
+                "uuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+                "type": "INPUT_FIELD",
+                "questionType": "MULTIPLE_CHOICE",
+                "blockGroupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+                "title": "Wie oft hast du in den letzten 12 Monaten körperliche Gewalt durch MitschülerInnen erlebt?\n(z. B. Schubsen, Schlagen, Treten)"
+              },
+              "comparison": "IS_NOT",
+              "value": "51a1d5ef-2b41-46e2-a8aa-3c689500e84c"
+            }
+          }
+        ],
+        "actions": [
+          {
+            "uuid": "d821f220-0393-4c12-9f13-296c5158db5e",
+            "type": "SHOW_BLOCKS",
+            "payload": {
+              "showBlocks": [
+                "492be09a-086e-42a8-88f0-5801eea809d3",
+                "c395af9f-4c15-4b40-af7c-99b2106f12b2",
+                "2e8b17e2-d390-4a1b-a9de-f3c0e45de656",
+                "350e9273-eb53-436b-b596-19a0c1ba3eeb",
+                "b206c99f-8f55-492f-98b0-d7282fff6af1",
+                "42093ea2-bbd8-47bd-b735-c94eb836f8b4",
+                "00ba0f45-3689-43bf-9fbd-e003af8a20e7",
+                "f29f24a3-527f-4096-8318-9455bca2bb75",
+                "eb2da52b-e4ce-44e4-b9d1-ef7daf9ef31e",
+                "40b29907-b5f0-44e8-b9c1-e2e5b5535b18",
+                "ddc040a3-899a-4776-b1d0-ee332a00444e",
+                "70525df5-82d5-47af-bfe6-2af1d8c31ac7",
+                "ab9189d2-0c94-4c17-a61f-430a46437152",
+                "19421e5f-f65d-47ef-b644-89ac2c7d0844"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "492be09a-086e-42a8-88f0-5801eea809d3",
+      "type": "TITLE",
+      "groupUuid": "4353d62f-f799-40bc-b1ca-d60a3cfbd995",
+      "groupType": "QUESTION",
+      "payload": {
+        "isHidden": true,
+        "isFolded": true,
+        "safeHTMLSchema": [
+          ["In welcher Form ist das passiert?"],
+          [
+            " (Mehrfachauswahl)",
+            [
+              ["tag", "span"],
+              ["font-style", "italic"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "c395af9f-4c15-4b40-af7c-99b2106f12b2",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ab86a1c7-b0e5-4344-9ca8-df0e6badec8f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Ich wurde geschlagen oder getreten."
+      }
+    },
+    {
+      "uuid": "2e8b17e2-d390-4a1b-a9de-f3c0e45de656",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ab86a1c7-b0e5-4344-9ca8-df0e6badec8f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Ich wurde bedroht (z. B. mit Schlägen oder Gegenständen)."
+      }
+    },
+    {
+      "uuid": "350e9273-eb53-436b-b596-19a0c1ba3eeb",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ab86a1c7-b0e5-4344-9ca8-df0e6badec8f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Man hat mich festgehalten oder am Weggehen gehindert."
+      }
+    },
+    {
+      "uuid": "b206c99f-8f55-492f-98b0-d7282fff6af1",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ab86a1c7-b0e5-4344-9ca8-df0e6badec8f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "MitschülerInnen haben meine Sachen beschädigt oder versteckt."
+      }
+    },
+    {
+      "uuid": "42093ea2-bbd8-47bd-b735-c94eb836f8b4",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ab86a1c7-b0e5-4344-9ca8-df0e6badec8f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Ich wurde erpresst."
+      }
+    },
+    {
+      "uuid": "00ba0f45-3689-43bf-9fbd-e003af8a20e7",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ab86a1c7-b0e5-4344-9ca8-df0e6badec8f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "index": 5,
+        "isRequired": false,
+        "isFirst": false,
+        "isLast": true,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Anderes"
+      }
+    },
+    {
+      "uuid": "f29f24a3-527f-4096-8318-9455bca2bb75",
+      "type": "TITLE",
+      "groupUuid": "b480e3d0-fcfb-45e8-a7c0-aac94caaa989",
+      "groupType": "QUESTION",
+      "payload": {
+        "isHidden": true,
+        "isFolded": false,
+        "safeHTMLSchema": [["Seit wann passiert das?"]]
+      }
+    },
+    {
+      "uuid": "eb2da52b-e4ce-44e4-b9d1-ef7daf9ef31e",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "57d2aec2-fb1f-47ac-aa3d-2a1270a2418b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "5e64d101-83f2-45c6-81cc-259313e0fae1",
+        "columnUuid": "4827935d-7066-4860-ad29-8d876793a5f7",
+        "columnRatio": 33,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehr als 2 Jahre"
+      }
+    },
+    {
+      "uuid": "40b29907-b5f0-44e8-b9c1-e2e5b5535b18",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "57d2aec2-fb1f-47ac-aa3d-2a1270a2418b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "5e64d101-83f2-45c6-81cc-259313e0fae1",
+        "columnUuid": "4827935d-7066-4860-ad29-8d876793a5f7",
+        "columnRatio": 33,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "1-2 Jahre"
+      }
+    },
+    {
+      "uuid": "ddc040a3-899a-4776-b1d0-ee332a00444e",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "57d2aec2-fb1f-47ac-aa3d-2a1270a2418b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "5e64d101-83f2-45c6-81cc-259313e0fae1",
+        "columnUuid": "2d7aeb63-eb56-40cf-8469-4a8663047990",
+        "columnRatio": 34,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "6-12 Monate"
+      }
+    },
+    {
+      "uuid": "70525df5-82d5-47af-bfe6-2af1d8c31ac7",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "57d2aec2-fb1f-47ac-aa3d-2a1270a2418b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "5e64d101-83f2-45c6-81cc-259313e0fae1",
+        "columnUuid": "2d7aeb63-eb56-40cf-8469-4a8663047990",
+        "columnRatio": 34,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "3-6 Monate"
+      }
+    },
+    {
+      "uuid": "ab9189d2-0c94-4c17-a61f-430a46437152",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "57d2aec2-fb1f-47ac-aa3d-2a1270a2418b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "5e64d101-83f2-45c6-81cc-259313e0fae1",
+        "columnUuid": "5968cba7-2ad8-4633-b7fd-dae853740de9",
+        "columnRatio": 33,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "1-3 Monate"
+      }
+    },
+    {
+      "uuid": "19421e5f-f65d-47ef-b644-89ac2c7d0844",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "57d2aec2-fb1f-47ac-aa3d-2a1270a2418b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "5e64d101-83f2-45c6-81cc-259313e0fae1",
+        "columnUuid": "5968cba7-2ad8-4633-b7fd-dae853740de9",
+        "columnRatio": 33,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Weniger als 1 Monat"
+      }
+    },
+    {
+      "uuid": "4588f910-a845-42bf-8fcc-117316f30feb",
+      "type": "PAGE_BREAK",
+      "groupUuid": "dd1f19d7-ac74-454b-a1d9-dfe90aeaa599",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 7,
+        "name": "verbale / soziale Gewalt",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "428d245f-4941-4911-b8de-e9fba354e08e",
+      "type": "HEADING_1",
+      "groupUuid": "b9da3586-b360-49a6-af89-3cb2f79b901f",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Verbale oder soziale Gewalt"]] }
+    },
+    {
+      "uuid": "bbade8be-c036-4e7e-94b4-3a9ab215156f",
+      "type": "TITLE",
+      "groupUuid": "f95a53c7-2cc5-466a-8df1-744a8acdc0fd",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": true,
+        "safeHTMLSchema": [
+          [
+            "Wie oft wurdest du in den letzten 6 Monaten Opfer von verbaler oder sozialer Gewalt von MitschülerInnen?\n"
+          ],
+          [
+            [
+              [
+                "(z. B. Beschimpfungen, Ausgrenzen, Gerüchte)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "93772e52-af2d-4580-8421-39f90daa5460",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "bf0f9eff-14b5-4cbc-ac2a-a55f8aca980f",
+        "columnUuid": "e5c36195-d13d-41e6-aca4-b3ffeb9b656a",
+        "columnRatio": 34,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Nie"
+      }
+    },
+    {
+      "uuid": "b223f5b2-a38e-40cc-970b-7298c62ed457",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "bf0f9eff-14b5-4cbc-ac2a-a55f8aca980f",
+        "columnUuid": "e5c36195-d13d-41e6-aca4-b3ffeb9b656a",
+        "columnRatio": 34,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Selten"
+      }
+    },
+    {
+      "uuid": "8f20b2cb-6a25-4a35-80e7-7ae637f766e9",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "bf0f9eff-14b5-4cbc-ac2a-a55f8aca980f",
+        "columnUuid": "830ce957-af92-483c-b31a-0f95497f6876",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Monatlich"
+      }
+    },
+    {
+      "uuid": "8414c765-094f-4593-bdd8-51d9c735cf7c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "bf0f9eff-14b5-4cbc-ac2a-a55f8aca980f",
+        "columnUuid": "830ce957-af92-483c-b31a-0f95497f6876",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Wöchentlich"
+      }
+    },
+    {
+      "uuid": "b5892752-be2f-4a42-b983-a68739dd1815",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "bf0f9eff-14b5-4cbc-ac2a-a55f8aca980f",
+        "columnUuid": "24c8fd4e-a747-44cd-8e01-cac7a5cc8c1b",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehrmals pro Woche"
+      }
+    },
+    {
+      "uuid": "fa509925-5b30-4ea4-8be8-dcfcf41d744f",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "bf0f9eff-14b5-4cbc-ac2a-a55f8aca980f",
+        "columnUuid": "24c8fd4e-a747-44cd-8e01-cac7a5cc8c1b",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Täglich"
+      }
+    },
+    {
+      "uuid": "a956d92f-c866-4dbf-b294-ead13b8e7b95",
+      "type": "CONDITIONAL_LOGIC",
+      "groupUuid": "8c3fe001-8242-47fe-abf2-0469bb12a8c2",
+      "groupType": "CONDITIONAL_LOGIC",
+      "payload": {
+        "updateUuid": "1667fb13-0c94-4d6a-a3be-a0cd2ea06633",
+        "logicalOperator": "AND",
+        "conditionals": [
+          {
+            "uuid": "951bb723-f725-4083-bba7-a7f01e34c1bc",
+            "type": "SINGLE",
+            "payload": {
+              "field": {
+                "uuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+                "type": "INPUT_FIELD",
+                "questionType": "MULTIPLE_CHOICE",
+                "blockGroupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+                "title": "Wie oft hast du in den letzten 12 Monaten verbale oder soziale Gewalt erlebt?\n(z. B. Beschimpfungen, Ausgrenzen, Gerüchte)"
+              },
+              "comparison": "IS_NOT",
+              "value": "93772e52-af2d-4580-8421-39f90daa5460"
+            }
+          }
+        ],
+        "actions": [
+          {
+            "uuid": "6e9781a4-5263-4edf-b25b-365bcca53a46",
+            "type": "SHOW_BLOCKS",
+            "payload": {
+              "showBlocks": [
+                "92d56894-dffc-42c0-aff2-fa6f07a8440b",
+                "3a6ce725-3619-4404-8fe4-eb8e6467be83",
+                "5142c880-19d7-4430-a51b-6fdeaba78ea2",
+                "de6e0a5a-1303-4f71-b2f9-65db69459f6b",
+                "45ab6932-de89-48d7-bd95-d13e85540f2f",
+                "612289d1-36db-4894-b8a7-83fffca4f01e",
+                "6a0c16d0-ae28-488a-a4f9-35837537a175",
+                "73fd22ed-1c50-4841-b0c3-85259d681020",
+                "a9ecb699-2761-4b43-af0f-aa02eba44cd4",
+                "6c3f7c3a-7494-4abd-ad6c-9da641e83aa5",
+                "1d7d66d2-4a2b-4ad3-a9f0-767dd2552f46",
+                "2222fed0-2dc4-4990-b48c-4994bd99a104",
+                "69d8aeaa-f49f-4f4e-b534-169a2326167b",
+                "4451f7f0-4056-4951-b391-a8e336d35378"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "73fd22ed-1c50-4841-b0c3-85259d681020",
+      "type": "TITLE",
+      "groupUuid": "83fb7b60-9912-4cf4-9f74-bca96211f0b1",
+      "groupType": "QUESTION",
+      "payload": {
+        "isHidden": true,
+        "isFolded": true,
+        "safeHTMLSchema": [
+          ["In welcher Form ist das passiert?"],
+          [
+            [
+              [
+                " (Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "a9ecb699-2761-4b43-af0f-aa02eba44cd4",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "1ba84457-50b4-4fcb-a1f1-5e428184f869",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Beleidigungen oder Schimpfwörter"
+      }
+    },
+    {
+      "uuid": "6c3f7c3a-7494-4abd-ad6c-9da641e83aa5",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "1ba84457-50b4-4fcb-a1f1-5e428184f869",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Gemeine Spitznamen"
+      }
+    },
+    {
+      "uuid": "1d7d66d2-4a2b-4ad3-a9f0-767dd2552f46",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "1ba84457-50b4-4fcb-a1f1-5e428184f869",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Ausgelacht oder verspottet werden"
+      }
+    },
+    {
+      "uuid": "2222fed0-2dc4-4990-b48c-4994bd99a104",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "1ba84457-50b4-4fcb-a1f1-5e428184f869",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Gerüchte oder Lügen verbreitet"
+      }
+    },
+    {
+      "uuid": "69d8aeaa-f49f-4f4e-b534-169a2326167b",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "1ba84457-50b4-4fcb-a1f1-5e428184f869",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Ignoriert oder bewusst ausgeschlossen werden"
+      }
+    },
+    {
+      "uuid": "4451f7f0-4056-4951-b391-a8e336d35378",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "1ba84457-50b4-4fcb-a1f1-5e428184f869",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "index": 5,
+        "isRequired": false,
+        "isFirst": false,
+        "isLast": true,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Anderes"
+      }
+    },
+    {
+      "uuid": "92d56894-dffc-42c0-aff2-fa6f07a8440b",
+      "type": "TITLE",
+      "groupUuid": "fa222d80-f607-40d9-8d1f-138aed9266f8",
+      "groupType": "QUESTION",
+      "payload": {
+        "isHidden": true,
+        "isFolded": false,
+        "safeHTMLSchema": [["Seit wann passiert das?"]]
+      }
+    },
+    {
+      "uuid": "3a6ce725-3619-4404-8fe4-eb8e6467be83",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ff18f9a4-8119-48a2-85d3-f3e8b435ef68",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "d36a7e6b-4c94-405c-bece-4f4de4c932b0",
+        "columnUuid": "fca755e1-ea5c-47b8-bb95-17c4ba500e59",
+        "columnRatio": 33,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehr als 2 Jahre"
+      }
+    },
+    {
+      "uuid": "5142c880-19d7-4430-a51b-6fdeaba78ea2",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ff18f9a4-8119-48a2-85d3-f3e8b435ef68",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "d36a7e6b-4c94-405c-bece-4f4de4c932b0",
+        "columnUuid": "fca755e1-ea5c-47b8-bb95-17c4ba500e59",
+        "columnRatio": 33,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "1-2 Jahre"
+      }
+    },
+    {
+      "uuid": "de6e0a5a-1303-4f71-b2f9-65db69459f6b",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ff18f9a4-8119-48a2-85d3-f3e8b435ef68",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "d36a7e6b-4c94-405c-bece-4f4de4c932b0",
+        "columnUuid": "bbf22306-a0e3-4d83-bb41-7cc0d8cc31f7",
+        "columnRatio": 34,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "6-12 Monate"
+      }
+    },
+    {
+      "uuid": "45ab6932-de89-48d7-bd95-d13e85540f2f",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ff18f9a4-8119-48a2-85d3-f3e8b435ef68",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "d36a7e6b-4c94-405c-bece-4f4de4c932b0",
+        "columnUuid": "bbf22306-a0e3-4d83-bb41-7cc0d8cc31f7",
+        "columnRatio": 34,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "3-6 Monate"
+      }
+    },
+    {
+      "uuid": "612289d1-36db-4894-b8a7-83fffca4f01e",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ff18f9a4-8119-48a2-85d3-f3e8b435ef68",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "d36a7e6b-4c94-405c-bece-4f4de4c932b0",
+        "columnUuid": "13ccae38-7fa8-4a6a-8958-7389543e203d",
+        "columnRatio": 33,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "1-3 Monate"
+      }
+    },
+    {
+      "uuid": "6a0c16d0-ae28-488a-a4f9-35837537a175",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ff18f9a4-8119-48a2-85d3-f3e8b435ef68",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "d36a7e6b-4c94-405c-bece-4f4de4c932b0",
+        "columnUuid": "13ccae38-7fa8-4a6a-8958-7389543e203d",
+        "columnRatio": 33,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Weniger als 1 Monat"
+      }
+    },
+    {
+      "uuid": "c6cf8b2b-22b5-43a3-9836-08df2aa5d8c8",
+      "type": "PAGE_BREAK",
+      "groupUuid": "d9aeb29a-151a-460c-aa97-5a8a345a9747",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 8,
+        "name": "Cybermobbing",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "b054bfa3-8515-4a6a-aefd-d72439106484",
+      "type": "HEADING_1",
+      "groupUuid": "1d4e3646-d3ac-4908-b994-29a19edfa48a",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Digitale Gewalt (Cybermobbing)"]] }
+    },
+    {
+      "uuid": "f8d778b5-055e-4db6-85c0-d907bb5be2d9",
+      "type": "TITLE",
+      "groupUuid": "32da1d1b-3796-4bde-b608-7ae994a8b008",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": true,
+        "safeHTMLSchema": [
+          [
+            "Wie oft wurdest du in den letzten 6 Monaten Opfer von Cybermobbing von MitschülerInnen\n"
+          ],
+          [
+            [
+              [
+                "(z. B. ",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ],
+              [
+                "Beleidigungen, Bloßstellung oder Bedrohung online",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ],
+              [
+                ")",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "6c074c41-6f7c-4b50-8869-30da16868e55",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "c4bf922c-6309-46eb-b3e8-d386ebd4fd51",
+        "columnUuid": "084ab2a5-c27c-4107-9750-ab2f37759819",
+        "columnRatio": 34,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Nie"
+      }
+    },
+    {
+      "uuid": "10e416fc-2dc2-463d-b8b7-c645df163d75",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "c4bf922c-6309-46eb-b3e8-d386ebd4fd51",
+        "columnUuid": "084ab2a5-c27c-4107-9750-ab2f37759819",
+        "columnRatio": 34,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Selten"
+      }
+    },
+    {
+      "uuid": "c51b07b1-8639-4c0c-9513-8a9193ff69d8",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "c4bf922c-6309-46eb-b3e8-d386ebd4fd51",
+        "columnUuid": "c7de032b-fb44-4e4f-b26b-4cbfd7b5e3c4",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Monatlich"
+      }
+    },
+    {
+      "uuid": "27d2bdb4-2023-4968-a137-551398623ce8",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "c4bf922c-6309-46eb-b3e8-d386ebd4fd51",
+        "columnUuid": "c7de032b-fb44-4e4f-b26b-4cbfd7b5e3c4",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Wöchentlich"
+      }
+    },
+    {
+      "uuid": "013a3b41-80c3-4b9f-a502-4f78abadf393",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "c4bf922c-6309-46eb-b3e8-d386ebd4fd51",
+        "columnUuid": "8e8d620c-2e27-456d-88b3-99d9e9346887",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehrmals pro Woche"
+      }
+    },
+    {
+      "uuid": "1adfe933-0687-4b75-a3b1-06f168d5e1f0",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "c4bf922c-6309-46eb-b3e8-d386ebd4fd51",
+        "columnUuid": "8e8d620c-2e27-456d-88b3-99d9e9346887",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Täglich"
+      }
+    },
+    {
+      "uuid": "3e1fe3f7-7ded-4589-b27e-0023a2536bae",
+      "type": "CONDITIONAL_LOGIC",
+      "groupUuid": "651abc31-be03-47b1-a250-76581a7c4a4b",
+      "groupType": "CONDITIONAL_LOGIC",
+      "payload": {
+        "updateUuid": "4792f58e-db09-4594-95e0-bb12cccef853",
+        "logicalOperator": "AND",
+        "conditionals": [
+          {
+            "uuid": "32b04560-c263-4dac-9534-9a9d6edd958b",
+            "type": "SINGLE",
+            "payload": {
+              "field": {
+                "uuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+                "type": "INPUT_FIELD",
+                "questionType": "MULTIPLE_CHOICE",
+                "blockGroupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+                "title": "Wie oft wurdest du in den letzten 6 Monaten Opfer von Cybermobbing von MitschülerInnen\n(z. B. Beleidigungen, Bloßstellung oder Bedrohung online)"
+              },
+              "comparison": "IS_NOT",
+              "value": "6c074c41-6f7c-4b50-8869-30da16868e55"
+            }
+          }
+        ],
+        "actions": [
+          {
+            "uuid": "106c3a0a-393c-4253-a540-f12403e7c64c",
+            "type": "SHOW_BLOCKS",
+            "payload": {
+              "showBlocks": [
+                "79c4862a-54a3-4f76-bb50-eda70b065473",
+                "0250a2f8-1944-4d80-834d-0182b7c2813b",
+                "c0505f3d-5db7-47b9-8994-7c2fb640a08c",
+                "5000ca42-98a1-4a96-b1f9-2f7aef3c0c2d",
+                "7f0770de-978e-4d56-b86d-c9c3dcab4001",
+                "76903d0d-dfb5-4185-979d-7f3e295b0880"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "79c4862a-54a3-4f76-bb50-eda70b065473",
+      "type": "TITLE",
+      "groupUuid": "24e19ec2-16bb-45d6-b255-44a7ef4abd14",
+      "groupType": "QUESTION",
+      "payload": {
+        "isHidden": true,
+        "isFolded": false,
+        "safeHTMLSchema": [
+          ["In welcher Form ist das passiert?"],
+          [
+            [
+              [
+                " (Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "0250a2f8-1944-4d80-834d-0182b7c2813b",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "5a95916e-f442-419c-b448-8925ac66100c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Beleidigungen per Chat oder Kommentar"
+      }
+    },
+    {
+      "uuid": "c0505f3d-5db7-47b9-8994-7c2fb640a08c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "5a95916e-f442-419c-b448-8925ac66100c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Gerüchte oder Lügen über mich wurden online verbreitet"
+      }
+    },
+    {
+      "uuid": "5000ca42-98a1-4a96-b1f9-2f7aef3c0c2d",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "5a95916e-f442-419c-b448-8925ac66100c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Peinliche Fotos/Videos von mir wurden veröffentlicht"
+      }
+    },
+    {
+      "uuid": "7f0770de-978e-4d56-b86d-c9c3dcab4001",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "5a95916e-f442-419c-b448-8925ac66100c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Bedrohung oder Erpressung per Chat/SMS/Web"
+      }
+    },
+    {
+      "uuid": "76903d0d-dfb5-4185-979d-7f3e295b0880",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "5a95916e-f442-419c-b448-8925ac66100c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "index": 4,
+        "isRequired": false,
+        "isFirst": false,
+        "isLast": true,
+        "hasOtherOption": true,
+        "isHidden": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Anderes"
+      }
+    },
+    {
+      "uuid": "038a4cd8-2202-4da4-b548-2337206256e0",
+      "type": "CONDITIONAL_LOGIC",
+      "groupUuid": "2b53cc42-f755-447b-98f2-ae5a8b60b9c7",
+      "groupType": "CONDITIONAL_LOGIC",
+      "payload": {
+        "updateUuid": "d712b93a-c35c-40f9-8725-a887c56f12b0",
+        "logicalOperator": "AND",
+        "conditionals": [
+          {
+            "uuid": "e48c1922-41a4-4c53-9118-a1f8be0e97e5",
+            "type": "GROUP",
+            "payload": {
+              "logicalOperator": "OR",
+              "conditionals": [
+                {
+                  "uuid": "73c764b1-545d-45e9-a28f-d109c4eeda40",
+                  "type": "SINGLE",
+                  "payload": {
+                    "field": {
+                      "uuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+                      "type": "INPUT_FIELD",
+                      "questionType": "MULTIPLE_CHOICE",
+                      "blockGroupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+                      "title": "Wie oft wurdest du in den letzten 12 Monaten Opfer von körperlicher Gewalt von MitschülerInnen (z. B. Schubsen, Schlagen, Treten)"
+                    },
+                    "comparison": "IS",
+                    "value": "51a1d5ef-2b41-46e2-a8aa-3c689500e84c"
+                  }
+                },
+                {
+                  "uuid": "b09f026f-dff7-4e5a-a69c-9e28815ee696",
+                  "type": "SINGLE",
+                  "payload": {
+                    "field": {
+                      "uuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+                      "type": "INPUT_FIELD",
+                      "questionType": "MULTIPLE_CHOICE",
+                      "blockGroupUuid": "b0167386-045a-4d06-b6dd-8a7f9206f0f3",
+                      "title": "Wie oft wurdest du in den letzten 12 Monaten Opfer von körperlicher Gewalt von MitschülerInnen (z. B. Schubsen, Schlagen, Treten)"
+                    },
+                    "comparison": "IS_EMPTY",
+                    "value": ""
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "uuid": "6c14b4f8-4aaf-4fc9-b1fc-0bfdd999a62a",
+            "type": "GROUP",
+            "payload": {
+              "logicalOperator": "OR",
+              "conditionals": [
+                {
+                  "uuid": "50c0690c-ddff-4f3e-ae62-e3a3fa31cfe1",
+                  "type": "SINGLE",
+                  "payload": {
+                    "field": {
+                      "uuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+                      "type": "INPUT_FIELD",
+                      "questionType": "MULTIPLE_CHOICE",
+                      "blockGroupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+                      "title": "Wie oft wurdest du in den letzten 12 Monaten Opfer von verbaler oder sozialer Gewalt von MitschülerInnen?\n(z. B. Beschimpfungen, Ausgrenzen, Gerüchte)"
+                    },
+                    "comparison": "IS",
+                    "value": "93772e52-af2d-4580-8421-39f90daa5460"
+                  }
+                },
+                {
+                  "uuid": "0ea80f78-94fd-4659-b23b-125903f876a6",
+                  "type": "SINGLE",
+                  "payload": {
+                    "field": {
+                      "uuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+                      "type": "INPUT_FIELD",
+                      "questionType": "MULTIPLE_CHOICE",
+                      "blockGroupUuid": "b397bcdb-cfd2-4ecd-9a3b-c1ae76e7e9cf",
+                      "title": "Wie oft wurdest du in den letzten 12 Monaten Opfer von verbaler oder sozialer Gewalt von MitschülerInnen?\n(z. B. Beschimpfungen, Ausgrenzen, Gerüchte)"
+                    },
+                    "comparison": "IS_EMPTY",
+                    "value": ""
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "uuid": "1a0419d8-e633-4ad9-a5db-1862c153ed16",
+            "type": "GROUP",
+            "payload": {
+              "logicalOperator": "OR",
+              "conditionals": [
+                {
+                  "uuid": "87e2fa6b-5266-46e2-93dd-22eb63f35d6b",
+                  "type": "SINGLE",
+                  "payload": {
+                    "field": {
+                      "uuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+                      "type": "INPUT_FIELD",
+                      "questionType": "MULTIPLE_CHOICE",
+                      "blockGroupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+                      "title": "Wie oft wurdest du in den letzten 12 Monaten Opfer von Cybermobbing von MitschülerInnen\n(z. B. Beleidigungen, Bloßstellung oder Bedrohung online)"
+                    },
+                    "comparison": "IS",
+                    "value": "6c074c41-6f7c-4b50-8869-30da16868e55"
+                  }
+                },
+                {
+                  "uuid": "7bec6b9c-4652-41b6-ae41-d14326524b80",
+                  "type": "SINGLE",
+                  "payload": {
+                    "field": {
+                      "uuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+                      "type": "INPUT_FIELD",
+                      "questionType": "MULTIPLE_CHOICE",
+                      "blockGroupUuid": "c9708304-1e85-4c46-8c57-3380cbc24465",
+                      "title": "Wie oft wurdest du in den letzten 12 Monaten Opfer von Cybermobbing von MitschülerInnen\n(z. B. Beleidigungen, Bloßstellung oder Bedrohung online)"
+                    },
+                    "comparison": "IS_EMPTY",
+                    "value": ""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "actions": [
+          {
+            "uuid": "f65f16b2-beee-4146-937b-964919672e48",
+            "type": "JUMP_TO_PAGE",
+            "payload": { "jumpToPage": "45296940-596b-4c80-8490-1a78380720e9" }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "f5d2c57e-8b74-4168-ab91-d9ec93ac7086",
+      "type": "PAGE_BREAK",
+      "groupUuid": "4ee9c964-83aa-48cb-8c71-29406fd7eed9",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 9,
+        "name": "Täterinnen und Reaktionen",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "a19e0add-5197-4cc1-8458-48a1f39012e7",
+      "type": "HEADING_1",
+      "groupUuid": "94e3386a-29d7-4700-8f6b-f4bc928e693b",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["TäterInnen und Reaktionen"]] }
+    },
+    {
+      "uuid": "17ee06a1-6917-438b-83aa-66f901ce9f6a",
+      "type": "TEXT",
+      "groupUuid": "348dbda1-d9b8-43ae-8b71-0a23e8fd1637",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Du hast angegeben, in den letzten 6 Monate Opfer von körperlicher oder verbaler Gewalt oder Cybermobbing gewesen zu sein. Die folgenden Fragen beziehen sich auf Erlebnisse aller dieser Kategorien. "
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "acb1822a-7fb8-4f7f-a7b4-16595a98544b",
+      "type": "CHECKBOX",
+      "groupUuid": "0bc51fc4-22ef-4eab-89b4-29688ac01828",
+      "groupType": "CHECKBOXES",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": true,
+        "name": "Formularfelder",
+        "isHidden": false,
+        "text": "Nein, ich war in den letzten 6 Monaten *kein* Opfer von körperlicher oder verbaler Gewalt oder Cybermobbing"
+      }
+    },
+    {
+      "uuid": "9006976b-2d68-4e27-910f-5916763020d2",
+      "type": "CONDITIONAL_LOGIC",
+      "groupUuid": "887772db-6bcd-4199-b1a6-80e06813d95c",
+      "groupType": "CONDITIONAL_LOGIC",
+      "payload": {
+        "updateUuid": "052684fa-b825-4a03-a515-a6a341b5cedf",
+        "logicalOperator": "AND",
+        "conditionals": [
+          {
+            "uuid": "ffe25198-281e-4695-9d5b-0723de821b43",
+            "type": "SINGLE",
+            "payload": {
+              "field": {
+                "uuid": "0bc51fc4-22ef-4eab-89b4-29688ac01828",
+                "type": "INPUT_FIELD",
+                "questionType": "CHECKBOXES",
+                "blockGroupUuid": "0bc51fc4-22ef-4eab-89b4-29688ac01828",
+                "title": "Untitled checkboxes field"
+              },
+              "comparison": "CONTAINS",
+              "value": "acb1822a-7fb8-4f7f-a7b4-16595a98544b"
+            }
+          }
+        ],
+        "actions": [
+          {
+            "uuid": "be923111-faec-484a-bcf4-2f87792a2a34",
+            "type": "HIDE_BLOCKS",
+            "payload": {
+              "hideBlocks": [
+                "ff463ba3-4da0-4949-a3bc-0d1118428f65",
+                "da133b5a-5a76-49d0-88d1-bcb56a372b01",
+                "68384a72-3646-43e7-8a45-9b67356a62ef",
+                "36cbe455-c31a-41cd-b760-b0def4b81a48",
+                "639170d5-3426-4a82-8fce-4493e829e68e",
+                "60a2e0f6-ddf0-46f5-8d4a-ef7412db91fb",
+                "7ef14089-1ed9-428d-b253-b8764d3ba5fe",
+                "71e0cae9-d058-4b86-868f-ac6cbb80cc0c",
+                "12d8433e-f6d6-4ca3-b90b-d806f39a055d",
+                "cc7b6138-ae24-425c-bb47-0eb488b67bd4",
+                "7b66ef11-6682-4555-99b8-d9a0fcf05f60",
+                "5ac80c29-84d1-47a0-98c1-19a8465519da",
+                "ba5197f0-6913-4c69-aa92-ac50336ea543",
+                "dc789981-faa8-4537-8043-c275450697ed",
+                "48829740-6f60-4ad6-b3ce-4c37ff206f67"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "ff463ba3-4da0-4949-a3bc-0d1118428f65",
+      "type": "TITLE",
+      "groupUuid": "f4da3df9-c980-4fd9-bc0c-66a23e53fdea",
+      "groupType": "QUESTION",
+      "payload": {
+        "isHidden": false,
+        "isFolded": true,
+        "safeHTMLSchema": [
+          [
+            "Wie viele Personen waren an diesen Handlungen von körperlicher Gewalt, verbaler Gewalt oder Cybermobbing gegen dich meistens beteiligt?"
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "da133b5a-5a76-49d0-88d1-bcb56a372b01",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "bd471cec-9210-415c-acb7-c3c0252749b0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "75169770-2f43-455e-9dc6-6a740394c5c5",
+        "columnUuid": "6311e1fc-c72e-4a46-af7b-2a62a23e2d01",
+        "columnRatio": 50,
+        "isHidden": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Eine Person"
+      }
+    },
+    {
+      "uuid": "68384a72-3646-43e7-8a45-9b67356a62ef",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "bd471cec-9210-415c-acb7-c3c0252749b0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "75169770-2f43-455e-9dc6-6a740394c5c5",
+        "columnUuid": "43787f5f-cc17-4d13-94b3-e0f94d8bd2f5",
+        "columnRatio": 50,
+        "isHidden": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Zwei bis vier Personen"
+      }
+    },
+    {
+      "uuid": "36cbe455-c31a-41cd-b760-b0def4b81a48",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "bd471cec-9210-415c-acb7-c3c0252749b0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "07e44f83-80ed-4210-b870-0e8090954f7f",
+        "columnUuid": "8859f220-e6b0-4006-9dad-bd197ae85403",
+        "columnRatio": 50,
+        "isHidden": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehr als vier Personen"
+      }
+    },
+    {
+      "uuid": "639170d5-3426-4a82-8fce-4493e829e68e",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "bd471cec-9210-415c-acb7-c3c0252749b0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "07e44f83-80ed-4210-b870-0e8090954f7f",
+        "columnUuid": "5e797a3d-718e-4547-af99-ebc72024caec",
+        "columnRatio": 50,
+        "isHidden": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehr als die Hälfte einer Klasse"
+      }
+    },
+    {
+      "uuid": "60a2e0f6-ddf0-46f5-8d4a-ef7412db91fb",
+      "type": "TITLE",
+      "groupUuid": "116a0cc8-29e5-4c52-a316-70cf090c75dd",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": true,
+        "safeHTMLSchema": [["Sind diese Personen aus deiner Klasse?"]]
+      }
+    },
+    {
+      "uuid": "7ef14089-1ed9-428d-b253-b8764d3ba5fe",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "2f34f55f-e4fb-4e9c-8248-5c6f08682c3c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "e0727698-08a2-4dc5-839d-730fba5b79fb",
+        "columnUuid": "e4e6eac2-d799-4240-988e-ac2ba242e009",
+        "columnRatio": 50,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Ja"
+      }
+    },
+    {
+      "uuid": "71e0cae9-d058-4b86-868f-ac6cbb80cc0c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "2f34f55f-e4fb-4e9c-8248-5c6f08682c3c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "e0727698-08a2-4dc5-839d-730fba5b79fb",
+        "columnUuid": "a1b13e28-626f-4430-ba70-596cc9a14878",
+        "columnRatio": 50,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Nein"
+      }
+    },
+    {
+      "uuid": "12d8433e-f6d6-4ca3-b90b-d806f39a055d",
+      "type": "TITLE",
+      "groupUuid": "eab98684-8814-45f2-bf45-b9fad82b029c",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "isHidden": false,
+        "safeHTMLSchema": [
+          [
+            "Wie wehrst du dich gegen körperliche oder andere Formen von Gewalt / Cybermobbing? "
+          ],
+          [
+            [
+              [
+                "(Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "cc7b6138-ae24-425c-bb47-0eb488b67bd4",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "4944e618-1cdc-40de-8cd7-53b723f61693",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "Körperlich (Zurückschlagen, Prügel)"
+      }
+    },
+    {
+      "uuid": "7b66ef11-6682-4555-99b8-d9a0fcf05f60",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "4944e618-1cdc-40de-8cd7-53b723f61693",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "Verbal (Beleidigungen, Rufe)"
+      }
+    },
+    {
+      "uuid": "5ac80c29-84d1-47a0-98c1-19a8465519da",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "4944e618-1cdc-40de-8cd7-53b723f61693",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Ich hole FreundInnen."
+      }
+    },
+    {
+      "uuid": "ba5197f0-6913-4c69-aa92-ac50336ea543",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "4944e618-1cdc-40de-8cd7-53b723f61693",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Ich hole LehrerInnen."
+      }
+    },
+    {
+      "uuid": "dc789981-faa8-4537-8043-c275450697ed",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "4944e618-1cdc-40de-8cd7-53b723f61693",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "Ich ziehe mich zurück/ gehe weg."
+      }
+    },
+    {
+      "uuid": "48829740-6f60-4ad6-b3ce-4c37ff206f67",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "4944e618-1cdc-40de-8cd7-53b723f61693",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "index": 5,
+        "isRequired": false,
+        "isFirst": false,
+        "isLast": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "Anderes"
+      }
+    },
+    {
+      "uuid": "45296940-596b-4c80-8490-1a78380720e9",
+      "type": "PAGE_BREAK",
+      "groupUuid": "53cff8e9-8f7c-4050-b855-bda8bec79414",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 10,
+        "name": "cybermobbing mitbekommen",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "e6505d19-dd1a-49bb-969a-b101c0391e40",
+      "type": "HEADING_1",
+      "groupUuid": "84fc9ed7-3c91-484d-8474-73aba40b46ea",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Beobachten von Mobbing"]] }
+    },
+    {
+      "uuid": "def5800c-124a-481d-b7d6-9f61a8cc72dc",
+      "type": "TITLE",
+      "groupUuid": "a630f1da-e3c5-4e33-97de-98d3d3685ade",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "safeHTMLSchema": [
+          ["Wie oft hast du Mobbing an anderen MitschülerInnen beobachtet?"]
+        ]
+      }
+    },
+    {
+      "uuid": "0b795cdb-943f-43ca-aff4-4f73dcc5eafd",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a6b3c733-b91a-4f1c-8fd1-50dfb1b9d5f5",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "63712653-8123-4793-8a7d-346fdd297fd5",
+        "columnUuid": "5338dfb7-e5bc-4dc0-b9b9-cd17de747826",
+        "columnRatio": 34,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Nie"
+      }
+    },
+    {
+      "uuid": "7205c68c-b5ca-4db2-bd17-602b6f17b0bc",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a6b3c733-b91a-4f1c-8fd1-50dfb1b9d5f5",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "63712653-8123-4793-8a7d-346fdd297fd5",
+        "columnUuid": "5338dfb7-e5bc-4dc0-b9b9-cd17de747826",
+        "columnRatio": 34,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Selten"
+      }
+    },
+    {
+      "uuid": "72459baa-5e24-4626-97e7-2b5fca0d8957",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a6b3c733-b91a-4f1c-8fd1-50dfb1b9d5f5",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "63712653-8123-4793-8a7d-346fdd297fd5",
+        "columnUuid": "d4b31f78-cb24-4ec8-8408-a9c09b71862c",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Monatlich"
+      }
+    },
+    {
+      "uuid": "d7b92dd2-8192-4851-923b-6fce74ede695",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a6b3c733-b91a-4f1c-8fd1-50dfb1b9d5f5",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "63712653-8123-4793-8a7d-346fdd297fd5",
+        "columnUuid": "d4b31f78-cb24-4ec8-8408-a9c09b71862c",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Wöchentlich"
+      }
+    },
+    {
+      "uuid": "c306b1de-e689-49cb-975b-0d562161a656",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a6b3c733-b91a-4f1c-8fd1-50dfb1b9d5f5",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "columnListUuid": "63712653-8123-4793-8a7d-346fdd297fd5",
+        "columnUuid": "470e1f57-2c0c-4363-a5d4-bdfa84f5c7e4",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehrmals pro Woche"
+      }
+    },
+    {
+      "uuid": "7891fdc4-69cb-4e5d-9c01-bee9bc208a08",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a6b3c733-b91a-4f1c-8fd1-50dfb1b9d5f5",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "63712653-8123-4793-8a7d-346fdd297fd5",
+        "columnUuid": "470e1f57-2c0c-4363-a5d4-bdfa84f5c7e4",
+        "columnRatio": 33,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Täglich"
+      }
+    },
+    {
+      "uuid": "1801119a-3daf-4209-b716-3ae5931960eb",
+      "type": "CONDITIONAL_LOGIC",
+      "groupUuid": "e7109549-fd0c-4c45-b633-5dec552fad7c",
+      "groupType": "CONDITIONAL_LOGIC",
+      "payload": {
+        "updateUuid": "f51ab782-3ef5-4531-b436-e182e7eff7e5",
+        "logicalOperator": "AND",
+        "conditionals": [
+          {
+            "uuid": "3acc7888-72bc-4f0b-bd9d-0844fb2e6e89",
+            "type": "SINGLE",
+            "payload": {
+              "field": {
+                "uuid": "a6b3c733-b91a-4f1c-8fd1-50dfb1b9d5f5",
+                "type": "INPUT_FIELD",
+                "questionType": "MULTIPLE_CHOICE",
+                "blockGroupUuid": "a6b3c733-b91a-4f1c-8fd1-50dfb1b9d5f5",
+                "title": "Wie oft hast du Vorfälle von anhaltender körperlicher oder verbaler Gewalt oder Cybermobbing in den letzten 12 Monaten beobachtet?"
+              },
+              "comparison": "IS",
+              "value": "0b795cdb-943f-43ca-aff4-4f73dcc5eafd"
+            }
+          }
+        ],
+        "actions": [
+          {
+            "uuid": "dfa29aa8-fb34-409a-95cb-bc8a800d20db",
+            "type": "JUMP_TO_PAGE",
+            "payload": { "jumpToPage": "bcf7ea92-0650-4c8a-9c3e-ceac323a7623" }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "58162fb2-893c-425e-8f7c-da4cad297f06",
+      "type": "PAGE_BREAK",
+      "groupUuid": "65791288-f9c6-49e5-8a27-609d82bda7ab",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 11,
+        "name": "umstände_wo",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "26bed9c1-fcc1-41a3-90e9-860b932b8882",
+      "type": "HEADING_1",
+      "groupUuid": "3311a8a3-e97a-46e7-846a-cfe056cf183f",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Umstände der Vorfälle"]] }
+    },
+    {
+      "uuid": "4d888403-25c9-4e2c-87d0-14c13bd8c6de",
+      "type": "TITLE",
+      "groupUuid": "9c2e7ef3-2cc5-4e0c-bd75-84081e82763f",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "safeHTMLSchema": [
+          [
+            "Wo",
+            [
+              ["tag", "span"],
+              ["font-style", "italic"]
+            ]
+          ],
+          [" passieren Übergriffe oder Mobbing / wo siehst du sie? "],
+          [
+            [
+              [
+                "(Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "a243aaef-7841-4158-88c9-740371740f38",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": false,
+        "hasMaxChoices": false,
+        "maxChoices": 3,
+        "hasOtherOption": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "colorCodeOptions": false,
+        "text": "Ich habe keine Übergriffe beobachtet"
+      }
+    },
+    {
+      "uuid": "45f45b67-cd46-4777-ad29-9f7b704fd016",
+      "type": "CONDITIONAL_LOGIC",
+      "groupUuid": "19cdf5de-e812-4043-9bb8-6c749635cf92",
+      "groupType": "CONDITIONAL_LOGIC",
+      "payload": {
+        "updateUuid": "9046c73d-a6ae-4351-89d2-1ae0cfb31474",
+        "logicalOperator": "AND",
+        "conditionals": [
+          {
+            "uuid": "94d3d74e-62c9-4126-9b1c-ffad94cec5dd",
+            "type": "SINGLE",
+            "payload": {
+              "field": {
+                "uuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+                "type": "INPUT_FIELD",
+                "questionType": "MULTIPLE_CHOICE",
+                "blockGroupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+                "title": " Wo passieren Übergriffe oder Mobbing in am ehesten?"
+              },
+              "comparison": "CONTAINS",
+              "value": "a243aaef-7841-4158-88c9-740371740f38"
+            }
+          }
+        ],
+        "actions": [
+          {
+            "uuid": "c45f2e31-bb99-4b6c-a51a-9bca0affd0e2",
+            "type": "HIDE_BLOCKS",
+            "payload": {
+              "hideBlocks": [
+                "25ed94a7-be45-4c50-855d-cc8117278fbf",
+                "d95baf79-9e4c-4cfd-bf9e-f04574f0b7b5",
+                "fd0e046b-1360-40e6-a0c1-605bc48559c6",
+                "cc429aa3-5d34-4ada-a3e8-202f77f1d81c",
+                "a80ee2f9-4e8c-4fa7-ac89-a369ce89a372",
+                "19e74e45-278b-43e9-9d01-0a1b02d9faf8",
+                "ed5fdc96-7a29-45f7-a447-a4d701cb958c",
+                "d46dc7ad-df65-4b52-b0b2-664efb2fa3e9",
+                "531187c6-7ffd-4ca1-95ee-e048910b373e",
+                "d125d3d7-ec91-47e2-a5b5-581f3d72c6d9",
+                "f06af600-5cb8-4405-adf6-1138ed51c77c"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "25ed94a7-be45-4c50-855d-cc8117278fbf",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 1,
+        "isRequired": false,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": false,
+        "hasMaxChoices": false,
+        "maxChoices": 3,
+        "hasOtherOption": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "colorCodeOptions": false,
+        "text": "Klassenzimmer"
+      }
+    },
+    {
+      "uuid": "d95baf79-9e4c-4cfd-bf9e-f04574f0b7b5",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": false,
+        "hasMaxChoices": false,
+        "maxChoices": 3,
+        "hasOtherOption": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "colorCodeOptions": false,
+        "text": "Schulhof"
+      }
+    },
+    {
+      "uuid": "fd0e046b-1360-40e6-a0c1-605bc48559c6",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": false,
+        "hasMaxChoices": false,
+        "maxChoices": 3,
+        "hasOtherOption": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "colorCodeOptions": false,
+        "text": "Treppenhaus/Flur"
+      }
+    },
+    {
+      "uuid": "cc429aa3-5d34-4ada-a3e8-202f77f1d81c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": false,
+        "hasMaxChoices": false,
+        "maxChoices": 3,
+        "hasOtherOption": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "colorCodeOptions": false,
+        "text": "Toiletten"
+      }
+    },
+    {
+      "uuid": "a80ee2f9-4e8c-4fa7-ac89-a369ce89a372",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": false,
+        "hasMaxChoices": false,
+        "maxChoices": 3,
+        "hasOtherOption": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "colorCodeOptions": false,
+        "text": "Schulweg"
+      }
+    },
+    {
+      "uuid": "ed5fdc96-7a29-45f7-a447-a4d701cb958c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 6,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasMinChoices": false,
+        "hasMaxChoices": false,
+        "maxChoices": 3,
+        "hasOtherOption": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "colorCodeOptions": false,
+        "text": "Online"
+      }
+    },
+    {
+      "uuid": "19e74e45-278b-43e9-9d01-0a1b02d9faf8",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "6bbc47e3-e82d-4987-bff0-314a2383c723",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "index": 7,
+        "isRequired": false,
+        "isFirst": false,
+        "isLast": true,
+        "allowMultiple": true,
+        "hasMinChoices": false,
+        "hasMaxChoices": false,
+        "maxChoices": 3,
+        "hasOtherOption": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "colorCodeOptions": false,
+        "text": "Anderswo"
+      }
+    },
+    {
+      "uuid": "d46dc7ad-df65-4b52-b0b2-664efb2fa3e9",
+      "type": "TITLE",
+      "groupUuid": "864aab3d-7a75-4574-9b87-a4b30553db2d",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "safeHTMLSchema": [
+          [
+            "Wann",
+            [
+              ["tag", "span"],
+              ["font-style", "italic"]
+            ]
+          ],
+          [" passieren solche Übergriffe / wann siehst du sie? "],
+          [
+            [
+              [
+                "(Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "531187c6-7ffd-4ca1-95ee-e048910b373e",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "bbc816ea-b11a-4b6b-a8ea-295c4005b648",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Während des Unterrichts"
+      }
+    },
+    {
+      "uuid": "d125d3d7-ec91-47e2-a5b5-581f3d72c6d9",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "bbc816ea-b11a-4b6b-a8ea-295c4005b648",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "In den Pausen"
+      }
+    },
+    {
+      "uuid": "f06af600-5cb8-4405-adf6-1138ed51c77c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "bbc816ea-b11a-4b6b-a8ea-295c4005b648",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "text": "Vor oder nach der Schule"
+      }
+    },
+    {
+      "uuid": "bcf7ea92-0650-4c8a-9c3e-ceac323a7623",
+      "type": "PAGE_BREAK",
+      "groupUuid": "1568f3ae-8ffd-4b75-b295-a9c12ee42da6",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 12,
+        "name": "umgang_eingreifen",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "e22082d6-a2f7-41b4-b0f0-af028b926ef6",
+      "type": "HEADING_1",
+      "groupUuid": "305b75a2-ce33-43a1-8529-c72c0b982332",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Umgang mit Konflikten"]] }
+    },
+    {
+      "uuid": "ce87b50b-b1ca-4046-bdde-1d8c2d78736f",
+      "type": "TITLE",
+      "groupUuid": "e2e71584-5f15-492a-bd9e-4bf48bf28e7d",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Wenn du sehen würdest, dass jemand gemobbt wird, würdest du selbst eingreifen oder helfen?"
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "8a371dba-75ba-46b2-87b1-450d3095d2df",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "c9c00767-e291-43e1-b747-025223603670",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht",
+        "hasRightLabel": true,
+        "rightLabel": "Auf jeden Fall"
+      }
+    },
+    {
+      "uuid": "9a9f9808-3c4b-4b39-866a-0afdebb310bd",
+      "type": "TITLE",
+      "groupUuid": "c4482b27-7868-444a-a222-d6a542e77fea",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "safeHTMLSchema": [
+          ["Wenn du Mobbing beobachtest, was fühlst oder denkst du dabei? "],
+          [
+            [
+              [
+                "(Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "3f33c6b4-87b6-45ac-982f-ca23cfd472bd",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "fbe67bc0-5c4a-43ce-a7d1-292d88372d0b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "„Das ist nicht in Ordnung.“"
+      }
+    },
+    {
+      "uuid": "cc3d896d-46ae-4afd-a3de-32166ee9beda",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "fbe67bc0-5c4a-43ce-a7d1-292d88372d0b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "„Das Opfer tut mir leid, aber ich habe Angst, selbst gemobbt zu werden.“"
+      }
+    },
+    {
+      "uuid": "6e638b03-65b3-40ee-bd75-5b340eb87cb5",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "fbe67bc0-5c4a-43ce-a7d1-292d88372d0b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "„Ich würde gerne helfen, weiß aber nicht wie.“"
+      }
+    },
+    {
+      "uuid": "1103156d-422b-4c25-b5a3-97e754a40db6",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "fbe67bc0-5c4a-43ce-a7d1-292d88372d0b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "„Ich will eine der beiden Seiten unterstützen.“"
+      }
+    },
+    {
+      "uuid": "90746585-83b0-42ca-bc2e-80a6fee2edcf",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "fbe67bc0-5c4a-43ce-a7d1-292d88372d0b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "„Es ist mir egal.“"
+      }
+    },
+    {
+      "uuid": "f32d300f-c565-4441-b74e-614cff29aa53",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "fbe67bc0-5c4a-43ce-a7d1-292d88372d0b",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "Anderes"
+      }
+    },
+    {
+      "uuid": "9ed3e3d6-a218-4854-adc2-2b16e1f40ca7",
+      "type": "TITLE",
+      "groupUuid": "69203544-aac5-4265-946a-e7c54b2d4ee2",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "safeHTMLSchema": [
+          [
+            "Wie hast du in der Vergangenheit reagiert, wenn du Mobbing gesehen hast? "
+          ],
+          [
+            [
+              [
+                "(Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "265f21fd-42cf-4005-90cf-23ead7a2604a",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ad83d770-7a39-42ea-b418-ee47901d03bf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "Ich habe beim Mobben mitgemacht."
+      }
+    },
+    {
+      "uuid": "d139f3f9-662c-439a-be04-45a2081a8f0c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ad83d770-7a39-42ea-b418-ee47901d03bf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "Ich habe weggeschaut, um Ärger zu vermeiden."
+      }
+    },
+    {
+      "uuid": "adefa55e-786f-4364-ad11-2f5a7287e59f",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ad83d770-7a39-42ea-b418-ee47901d03bf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "Ich habe zugeschaut, ohne einzugreifen."
+      }
+    },
+    {
+      "uuid": "744f83d7-51ca-4f4d-889d-7bc7d9324380",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ad83d770-7a39-42ea-b418-ee47901d03bf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "Ich habe eine andere Person dazugeholt."
+      }
+    },
+    {
+      "uuid": "4886f7a7-d5e8-4c76-9137-cbcaa68c6f11",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ad83d770-7a39-42ea-b418-ee47901d03bf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "Ich habe versucht, dem Opfer direkt zu helfen."
+      }
+    },
+    {
+      "uuid": "1b944153-f10f-4b9c-aa64-d67d87476185",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "ad83d770-7a39-42ea-b418-ee47901d03bf",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "text": "Anderes"
+      }
+    },
+    {
+      "uuid": "5e984528-55e0-4d36-b955-dd3a13c5948c",
+      "type": "PAGE_BREAK",
+      "groupUuid": "8990f328-02dc-4f4f-b61f-15aa702ccd0b",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 13,
+        "name": "umgang_hilfe",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "9c5bd5b7-eb98-4439-8602-90f9fe6cc6e6",
+      "type": "HEADING_1",
+      "groupUuid": "ebfac234-eedf-47e6-b58c-914b44d39cb0",
+      "groupType": "HEADING_1",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Unterstützung bei Konflikten",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "400a5b95-ef64-4ff8-b02c-4b14e0af76e8",
+      "type": "TITLE",
+      "groupUuid": "e4bf3f17-80c3-477c-8ab7-040af3909a43",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "safeHTMLSchema": [
+          [
+            "Ich weiß, an wen ich mich wenden kann, wenn ich gemobbt werde oder Probleme in der Klasse habe."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "5dd6a342-25ac-4ef8-abe0-83391e9e987e",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "d02a56e3-9027-4947-be7e-4f1197c65583",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "index": 0,
+        "isRequired": false,
+        "isFirst": true,
+        "isLast": false,
+        "columnListUuid": "f57cda89-d03f-4a3c-8d70-e089d6023f65",
+        "columnUuid": "439ddd6f-4f4e-4b83-a5fd-60023fead0b1",
+        "columnRatio": 50,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Ja"
+      }
+    },
+    {
+      "uuid": "023d5b06-f9e4-4ca2-80cb-096693716c5f",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "d02a56e3-9027-4947-be7e-4f1197c65583",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": true,
+        "columnListUuid": "f57cda89-d03f-4a3c-8d70-e089d6023f65",
+        "columnUuid": "d352520d-e326-4e69-bc96-9f184e9289e5",
+        "columnRatio": 50,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Nein"
+      }
+    },
+    {
+      "uuid": "bbdc1002-f0e3-4727-9213-44ca74f713c7",
+      "type": "TITLE",
+      "groupUuid": "d8fd416a-98da-49d2-bbe1-e546ebe93d76",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "isHidden": false,
+        "safeHTMLSchema": [
+          ["An wen würdest du dich wenden?"],
+          [
+            [
+              [
+                " (Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "6100bef7-43fe-48cf-ae94-ab021db4df5d",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "e4d7d9f4-8b64-4a31-b55e-38b34e9fe02c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "VertrauenslehrerIn"
+      }
+    },
+    {
+      "uuid": "c051c231-3c74-461e-9e71-31e3f7e0f9ad",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "e4d7d9f4-8b64-4a31-b55e-38b34e9fe02c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "KlassenlehrerIn"
+      }
+    },
+    {
+      "uuid": "18dc8ffc-a052-4079-9fc0-72e8cce6ad2b",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "e4d7d9f4-8b64-4a31-b55e-38b34e9fe02c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "FreundInnen"
+      }
+    },
+    {
+      "uuid": "536bc0d3-406c-4752-ad53-e85e421a4fe5",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "e4d7d9f4-8b64-4a31-b55e-38b34e9fe02c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "Eltern / Familie"
+      }
+    },
+    {
+      "uuid": "e7dc0c82-08fc-4e7f-9177-b759bf959b68",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "e4d7d9f4-8b64-4a31-b55e-38b34e9fe02c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "Kinder- und Jugendtelefon"
+      }
+    },
+    {
+      "uuid": "c3b7f9e7-f3c0-48ac-8e6e-febe31316aff",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "e4d7d9f4-8b64-4a31-b55e-38b34e9fe02c",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": true,
+        "allowMultiple": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "isHidden": false,
+        "text": "Andere"
+      }
+    },
+    {
+      "uuid": "fbc25aa0-df36-4681-adf9-eb4f5f03bb46",
+      "type": "PAGE_BREAK",
+      "groupUuid": "2288812c-4f38-4f0b-b5ae-caf7828d61a4",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 14,
+        "name": "motive und hintergründe",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "838eca3e-774f-4080-856f-abcef01b2d4f",
+      "type": "HEADING_1",
+      "groupUuid": "3aa13abf-1c97-4341-8210-b31f2511de03",
+      "groupType": "HEADING_1",
+      "payload": {
+        "safeHTMLSchema": [["Motive &amp; Hintergründe von Mobbing"]]
+      }
+    },
+    {
+      "uuid": "1665a404-224f-4d7e-a617-83bf0396372c",
+      "type": "TITLE",
+      "groupUuid": "908d84d2-6057-4adf-9760-5f65d0a77d5f",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "safeHTMLSchema": [
+          ["Warum denkst du, mobben manche SchülerInnen andere? "],
+          [
+            [
+              [
+                "(Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "ed77731d-59bc-4c52-8e79-b0349702be0c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "979d2f92-40bf-4b50-9a8a-f1fa691e517f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Geld oder materielle Dinge"
+      }
+    },
+    {
+      "uuid": "231df774-2c56-4455-be03-1baefde78634",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "979d2f92-40bf-4b50-9a8a-f1fa691e517f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Kleidung"
+      }
+    },
+    {
+      "uuid": "1ee502e2-a281-48e8-ae74-d890aa79744d",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "979d2f92-40bf-4b50-9a8a-f1fa691e517f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Aussehen / Körperform"
+      }
+    },
+    {
+      "uuid": "fddeda3e-5a3a-4726-90d4-510f024361cc",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "979d2f92-40bf-4b50-9a8a-f1fa691e517f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Verhalten"
+      }
+    },
+    {
+      "uuid": "920eea91-87f9-4fea-b6be-2d777344dcc0",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "979d2f92-40bf-4b50-9a8a-f1fa691e517f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Rivalität / Konkurrenz"
+      }
+    },
+    {
+      "uuid": "49bcac18-c8df-4a65-99dd-ff616dfe0686",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "979d2f92-40bf-4b50-9a8a-f1fa691e517f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 5,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Herkunft / Religion / Hautfarbe"
+      }
+    },
+    {
+      "uuid": "910543cc-9dcc-4ea3-b7db-d63cfa4dae2a",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "979d2f92-40bf-4b50-9a8a-f1fa691e517f",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "isRequired": false,
+        "index": 6,
+        "isFirst": false,
+        "isLast": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "allowMultiple": true,
+        "hasOtherOption": true,
+        "text": "Anderes"
+      }
+    },
+    {
+      "uuid": "36bc030a-2dfb-4f58-9edc-1b4f398c2891",
+      "type": "PAGE_BREAK",
+      "groupUuid": "54bb6e8c-b12f-4e37-abd5-6c79b011f184",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 15,
+        "name": "wahrnehmung",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "9225be04-5499-4a64-be1c-65d8a31a2999",
+      "type": "HEADING_1",
+      "groupUuid": "2632c97e-cf0b-49a2-aa0f-0a6b2dbfc20b",
+      "groupType": "HEADING_1",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Wahrnehmung der Lehrkräfte &amp; Schulgemeinschaft"]
+        ]
+      }
+    },
+    {
+      "uuid": "067ba8b6-c32b-4a10-b589-41e3fcc0ffa2",
+      "type": "TEXT",
+      "groupUuid": "eac7f635-475b-40f1-ae2d-f82c2bd4f5e7",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Bitte bewerte von "],
+          [
+            "1 = stimmt gar nicht",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [" bis "],
+          [
+            "5 = stimmt voll und ganz",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          ["."]
+        ]
+      }
+    },
+    {
+      "uuid": "a1b935dd-4527-4419-9146-c5ea22300d2d",
+      "type": "TITLE",
+      "groupUuid": "23d13841-4572-4744-b124-b371eaecd58d",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          ["Die LehrerInnen bemerken es, wenn Mobbing oder Streit passiert."]
+        ]
+      }
+    },
+    {
+      "uuid": "2ea98317-803b-4beb-b0da-9fb85f313c5a",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "4122bb1d-1478-43a0-a9f4-31e625d958a0",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht",
+        "hasRightLabel": true,
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "746489e5-713d-4a64-bb1b-208e6bc05885",
+      "type": "TITLE",
+      "groupUuid": "04bd57e7-59b6-439d-adc8-be4f89cfc8b5",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Die LehrerInnen greifen ein, wenn sie merken, dass SchülerInnen gemobbt werden."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "bfd20872-217c-4ee6-86e7-1d9cd0c62b43",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "e8f89bbb-903d-4af6-ab38-883f80cf34d7",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht",
+        "hasRightLabel": true,
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "2f65f7de-befc-47c3-9656-dba56b2003aa",
+      "type": "TITLE",
+      "groupUuid": "60140cd0-d39d-4d96-a5e5-e675abc2d05f",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Die meisten MitschülerInnen helfen einander, wenn Streit oder Mobbing passiert."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "941739d8-6868-4263-8a2b-a36d989f3c10",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "0b7d6516-463c-43a0-b3a2-0124531a4f7b",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht",
+        "hasRightLabel": true,
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "c8456fea-d902-401d-bb79-37e5c1c39d5a",
+      "type": "TITLE",
+      "groupUuid": "2c43ed8f-da27-4963-8b9e-447a00c5fc2e",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Ich fühle mich von der Schulgemeinschaft (LehrerInnen und SchülerInnen) unterstützt, wenn ich Probleme habe."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "9a8381db-9998-422d-b6fd-f370e6dcf350",
+      "type": "LINEAR_SCALE",
+      "groupUuid": "b6fdbbb0-6e28-48f0-98bf-7643686d56c9",
+      "groupType": "LINEAR_SCALE",
+      "payload": {
+        "isRequired": false,
+        "start": 1,
+        "end": 5,
+        "step": 1,
+        "hasLeftLabel": true,
+        "leftLabel": "Gar nicht",
+        "hasRightLabel": true,
+        "rightLabel": "Voll und ganz"
+      }
+    },
+    {
+      "uuid": "3c11d98c-5e97-4374-8e89-9c96e9c00c2b",
+      "type": "PAGE_BREAK",
+      "groupUuid": "484c81b3-d1a0-4edc-8fa2-ffca4371c0dd",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 16,
+        "name": "selbstreflexion",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "9030bdd5-30b6-4426-b506-ed095fdcef58",
+      "type": "HEADING_1",
+      "groupUuid": "703f71b5-f238-46bc-9518-e0477560b1f8",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Selbstreflexion"]] }
+    },
+    {
+      "uuid": "cd2eba97-e0cc-4bdf-b977-7ac3cdb1a424",
+      "type": "TEXT",
+      "groupUuid": "aad496e8-341a-4421-9223-38717eb0363b",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Hinweis: diese Umfrage ist vollständig anonym. Wir können nicht herausfinden, wer du bist und werden es auch gar nicht erst versuchen."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "e160cf17-b097-497c-9b1b-66527fd9c613",
+      "type": "TITLE",
+      "groupUuid": "3ca2a5a5-425e-46ba-a781-05b929f11240",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": true,
+        "safeHTMLSchema": [
+          [
+            "Wie oft warst du in den letzten Monaten daran beteiligt, andere SchülerInnen in deiner Schule zu ärgern oder anzugreifen?"
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "93103abd-e0fa-405a-b3c7-5d4748ec2f4b",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a79e9b5e-a4ef-418a-86a4-8eb9a7677ae0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Nie"
+      }
+    },
+    {
+      "uuid": "34fbe151-d689-4b11-bf0a-6a57b0fb02c2",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a79e9b5e-a4ef-418a-86a4-8eb9a7677ae0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Einmal"
+      }
+    },
+    {
+      "uuid": "38a61090-5937-401e-8bb6-49e21d89f06c",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a79e9b5e-a4ef-418a-86a4-8eb9a7677ae0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehrfach im letzten Monat"
+      }
+    },
+    {
+      "uuid": "e3665d28-94f0-47b7-8698-4d801f08b4e0",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a79e9b5e-a4ef-418a-86a4-8eb9a7677ae0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Ungefähr einmal pro Woche"
+      }
+    },
+    {
+      "uuid": "b1d60988-4156-4655-bfa9-232f2ef34ce1",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a79e9b5e-a4ef-418a-86a4-8eb9a7677ae0",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "text": "Mehrmals pro Woche"
+      }
+    },
+    {
+      "uuid": "157cf539-2a61-4eb4-906a-2fdfab848320",
+      "type": "CONDITIONAL_LOGIC",
+      "groupUuid": "7281fd09-972b-4026-9136-7e917fd410bd",
+      "groupType": "CONDITIONAL_LOGIC",
+      "payload": {
+        "updateUuid": "eb1a428f-901b-4666-81f4-a4de08663778",
+        "logicalOperator": "AND",
+        "conditionals": [
+          {
+            "uuid": "2fbbf25f-e968-4f0f-b24f-e671b110f9cd",
+            "type": "SINGLE",
+            "payload": {
+              "field": {
+                "uuid": "a79e9b5e-a4ef-418a-86a4-8eb9a7677ae0",
+                "type": "INPUT_FIELD",
+                "questionType": "MULTIPLE_CHOICE",
+                "blockGroupUuid": "a79e9b5e-a4ef-418a-86a4-8eb9a7677ae0",
+                "title": "Hast du schon einmal selbst andere Mitschüler:innen gemobbt?"
+              },
+              "comparison": "IS_NOT",
+              "value": "93103abd-e0fa-405a-b3c7-5d4748ec2f4b"
+            }
+          }
+        ],
+        "actions": [
+          {
+            "uuid": "09e966cf-cdde-463d-a9b1-4943f76d1832",
+            "type": "SHOW_BLOCKS",
+            "payload": {
+              "showBlocks": [
+                "bb6c64c9-9934-49e0-9d17-4741cfb6495c",
+                "db8422e5-bb71-41ca-85f7-fb9503b12d39",
+                "d81c35be-b19c-4e9b-ae84-e20348bb11f5",
+                "2b7e478b-e482-4994-8f5c-9d2f20328b11",
+                "81615b75-5603-4ee1-87fa-4fd6acb46acc"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "bb6c64c9-9934-49e0-9d17-4741cfb6495c",
+      "type": "TITLE",
+      "groupUuid": "c4d72ed9-38e5-4b76-a453-ad1173492c21",
+      "groupType": "QUESTION",
+      "payload": {
+        "isFolded": false,
+        "isHidden": true,
+        "safeHTMLSchema": [
+          ["Warum hast du das getan? "],
+          [
+            [
+              [
+                "(Mehrfachauswahl)",
+                [
+                  ["tag", "span"],
+                  ["font-style", "italic"]
+                ]
+              ]
+            ],
+            [
+              ["tag", "span"],
+              ["font-weight", "normal"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "db8422e5-bb71-41ca-85f7-fb9503b12d39",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a896801a-05c4-445e-8b36-27c0dd28f776",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 0,
+        "isFirst": true,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "allowMultiple": true,
+        "isHidden": true,
+        "text": "Aus Wut"
+      }
+    },
+    {
+      "uuid": "e2634eb7-fdd0-475f-98cc-61b9a5cde2d8",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a896801a-05c4-445e-8b36-27c0dd28f776",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 1,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "allowMultiple": true,
+        "isHidden": true,
+        "text": "Aus Not"
+      }
+    },
+    {
+      "uuid": "d81c35be-b19c-4e9b-ae84-e20348bb11f5",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a896801a-05c4-445e-8b36-27c0dd28f776",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 2,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "allowMultiple": true,
+        "isHidden": true,
+        "text": "Aus Spaß"
+      }
+    },
+    {
+      "uuid": "2b7e478b-e482-4994-8f5c-9d2f20328b11",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a896801a-05c4-445e-8b36-27c0dd28f776",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isRequired": false,
+        "index": 3,
+        "isFirst": false,
+        "isLast": false,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "allowMultiple": true,
+        "isHidden": true,
+        "text": "Weil ich selbst geärgert wurde"
+      }
+    },
+    {
+      "uuid": "81615b75-5603-4ee1-87fa-4fd6acb46acc",
+      "type": "MULTIPLE_CHOICE_OPTION",
+      "groupUuid": "a896801a-05c4-445e-8b36-27c0dd28f776",
+      "groupType": "MULTIPLE_CHOICE",
+      "payload": {
+        "isOtherOption": true,
+        "isRequired": false,
+        "index": 4,
+        "isFirst": false,
+        "isLast": true,
+        "hasBadge": false,
+        "badgeType": "OFF",
+        "hasOtherOption": true,
+        "allowMultiple": true,
+        "isHidden": true,
+        "text": "Sonstiges"
+      }
+    },
+    {
+      "uuid": "01122a34-d6f5-4dc8-af56-e430e6b1d14a",
+      "type": "PAGE_BREAK",
+      "groupUuid": "1aaa388c-c659-4044-9c12-4a924c3c8def",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 17,
+        "name": "feedback",
+        "isQualifiedForThankYouPage": false,
+        "isThankYouPage": false,
+        "isFirst": false,
+        "isLast": false
+      }
+    },
+    {
+      "uuid": "ad7f2cd9-6f0b-49a7-9727-17d1f6a520e7",
+      "type": "HEADING_1",
+      "groupUuid": "5a92e6c2-06b8-48fb-bf1e-f2841df2c7fa",
+      "groupType": "HEADING_1",
+      "payload": { "safeHTMLSchema": [["Offene Fragen, Feedback, Kontakt"]] }
+    },
+    {
+      "uuid": "11182ae8-a9a2-424b-ba64-654bcc7bb8f7",
+      "type": "TITLE",
+      "groupUuid": "d9d7ba2e-d73d-40cb-ad17-ec8d677e4561",
+      "groupType": "QUESTION",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Hier kannst du weitere Gedanken oder Erfahrungen zu Konflikten, Mobbing oder Gewalt mitteilen."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "a71e0f56-39d6-485a-b944-48f5ebba85df",
+      "type": "TEXTAREA",
+      "groupUuid": "24206068-043a-4cf2-8121-08d90e049cae",
+      "groupType": "TEXTAREA",
+      "payload": {
+        "isRequired": false,
+        "placeholder": "Was wünschst du dir? Was würde dir guttun, um dich wohlzufühlen?"
+      }
+    },
+    {
+      "uuid": "7b226ea0-9e78-459d-8dd9-ab3302760705",
+      "type": "HEADING_2",
+      "groupUuid": "53d032fe-998c-42aa-9d7c-7803fc718e3d",
+      "groupType": "HEADING_2",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Hier bekommst du Hilfe:",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "ebcb6467-f164-433a-8ebe-ca3604f3ba59",
+      "type": "TEXT",
+      "groupUuid": "2eed3d80-3dab-4c64-826d-9abf56d4cdb6",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "VertrauenslehrerInnen in der Schule: ",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          ["[Name/n einfügen]\n\n"],
+          [
+            "Nummer gegen Kummer (Kinder- und Jugendtelefon, Mo–Sa 14–20 Uhr):",
+            [
+              ["tag", "span"],
+              ["font-weight", "bold"]
+            ]
+          ],
+          [" 0800-111 0 333"]
+        ]
+      }
+    },
+    {
+      "uuid": "fb0f88fd-212b-4504-a368-2db6ac94f947",
+      "type": "PAGE_BREAK",
+      "groupUuid": "dbe8d0d9-11da-435b-8a39-faa57b0bb58e",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "index": 18,
+        "name": "danke",
+        "isQualifiedForThankYouPage": true,
+        "isThankYouPage": true,
+        "isFirst": false,
+        "isLast": true
+      }
+    },
+    {
+      "uuid": "fd648bb3-35c2-4e9a-9c08-bea3b7ba7ab4",
+      "type": "TEXT",
+      "groupUuid": "dbe8d0d9-11da-435b-8a39-faa57b0bb58e",
+      "groupType": "PAGE_BREAK",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "Vielen Dank für deine ehrlichen Antworten. Sie bedeuten uns sehr viel. Denn nur zusammen können wir die Schule zu einem besseren Ort machen.\n\nDie Daten werden nun von den entsprechenden Kreisen gesammelt und ausgewertet. Sie bleiben vollständig anonym."
+          ]
+        ]
+      }
+    },
+    {
+      "uuid": "e7da2ea6-20ef-4758-9c10-24c41b3a6d42",
+      "type": "TEXT",
+      "groupUuid": "447a13bd-b41a-463b-9572-4a2dc799f3df",
+      "groupType": "TEXT",
+      "payload": {
+        "safeHTMLSchema": [
+          [
+            "\nNochmals: vielen Dank!\nDie SchülerInnenvertretung (SV) und Mitteloberstufenkonferenz (MOK)"
+          ]
+        ]
+      }
+    }
+  ]
+}
