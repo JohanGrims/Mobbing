@@ -2,6 +2,12 @@
 
 Ein umfassendes, anonymes Umfrage- und Analysesystem zur Bewertung von Mobbing, Gewalt und Schulklima für Schülerinnen und Schüler der Klassenstufen 5 bis 12. Durchgeführt an einer deutschen Gesamtschule, um Muster von physischer, verbaler und Cybergewalt zu identifizieren und institutionelle Unterstützungsstrukturen zu bewerten.
 
+## Durchführung
+
+* Erstellen Sie eine neue Umfrage anhand des folgenden Templates und füllen Sie die VertrauenslehrerInnen am Ende ein: [https://tally.so/templates/fragebogen---schulklima-mobbing-und-gewalt/3NRBB3](https://tally.so/templates/fragebogen---schulklima-mobbing-und-gewalt/3NRBB3).
+* (optional) Erstellen Sie die Meta-Umfrage anhand des folgenden Templates, ändern Sie Texte und stellen Sie in der Hauptumfrage eine Weiterleitung zum Link der zweiten Umfrage ein: [https://tally.so/templates/feedback-zum-fragebogen---schulklima-mobbing-und-gewalt/3qkEYn](https://tally.so/templates/feedback-zum-fragebogen---schulklima-mobbing-und-gewalt/3qkEYn)
+* Exportieren Sie die CSV-Datei(en) nach der Befragung und laden Sie die in folgendem Colab-Notebook hoch. Sie müssen nur "Run All" betätigen: [https://colab.research.google.com/github/JohanGrims/Mobbing/blob/main/Auswertung.ipynb](https://colab.research.google.com/github/JohanGrims/Mobbing/blob/main/Auswertung.ipynb)
+
 ## Studiendesign
 
 * **Zielgruppe:** Schülerinnen und Schüler der Klassen 5–12
